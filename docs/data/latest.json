@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:46:42+00:00",
+ "updated": "2026-10-18T04:47:29+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -934,7 +934,7 @@
    ]
   },
   "csirt-mt": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
@@ -986,7 +986,8 @@
      "date": "2026-05-08T09:16:59+00:00",
      "summary": "A campaign on national television captures the despair of a senior executive after he inadvertently clicks an email … Continued"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "ncsc-nl": {
    "status": "ok",
@@ -1061,7 +1062,7 @@
    "items": []
   },
   "dnsc-ro": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://dnsc.ro/feed/",
    "via": "probed",
    "items": [
@@ -1113,7 +1114,8 @@
      "date": "2026-09-28T10:53:04+00:00",
      "summary": "CONTEXT La data de 27 septembrie 2026, Citrix a publicat un buletin de securitate referitor la opt ..."
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "sk-cert": {
    "status": "ok",
@@ -2174,7 +2176,6 @@
    "status": "no-feed",
    "blocked": false,
    "tried": [
-    "https://www.twcert.org.tw/ (discovery: URLError)",
     "https://www.twcert.org.tw/feed/",
     "https://www.twcert.org.tw/rss.xml",
     "https://www.twcert.org.tw/rss",
