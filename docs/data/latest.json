@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T11:23:09+00:00",
+ "updated": "2026-10-18T16:02:07+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -935,7 +935,7 @@
   },
   "csirt-mt": {
    "status": "ok",
-   "feed": "https://ncc-mita.gov.mt/feed/",
+   "feed": "https://ncc-mita.gov.mt/rss",
    "via": "probed",
    "items": [
     {
