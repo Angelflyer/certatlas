@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T20:57:24+00:00",
+ "updated": "2026-10-19T04:55:40+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -934,8 +934,8 @@
    ]
   },
   "csirt-mt": {
-   "status": "stale",
-   "feed": "https://ncc-mita.gov.mt/rss",
+   "status": "ok",
+   "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
     {
@@ -986,8 +986,7 @@
      "date": "2026-05-08T09:16:59+00:00",
      "summary": "A campaign on national television captures the despair of a senior executive after he inadvertently clicks an email … Continued"
     }
-   ],
-   "error": "latest fetch failed"
+   ]
   },
   "ncsc-nl": {
    "status": "ok",
