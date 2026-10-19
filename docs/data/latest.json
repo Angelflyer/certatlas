@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T04:55:40+00:00",
+ "updated": "2026-10-19T13:36:28+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -534,52 +534,52 @@
    "via": "known",
    "items": [
     {
-     "title": "[NEU] [mittel] Mattermost: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4009",
-     "date": "2026-10-16T11:45:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Mattermost ausnutzen, um Sicherheitsvorkehrungen zu umgehen, um seine Privilegien zu erhöhen, um einen Denial of Service Angriff durchzuführen, um Informationen offenzulegen, um Dateien zu manipulieren."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2024-0773",
+     "date": "2026-10-19T13:12:39+00:00",
+     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen, seine Privilegien eskalieren oder einen nicht näher spezifizierten Angriff durchzuführen."
     },
     {
-     "title": "[NEU] [hoch] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4008",
-     "date": "2026-10-16T11:35:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen oder Root-Rechte zu erlangen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-2053",
+     "date": "2026-10-19T13:12:36+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen oder nicht näher beschriebene Auswirkungen zu erzielen."
     },
     {
-     "title": "[NEU] [UNGEPATCHT] [mittel] PJSIP: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4007",
-     "date": "2026-10-16T11:30:51+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in PJSIP ausnutzen, um einen Denial of Service Angriff durchzuführen oder Informationen offenzulegen."
+     "title": "[UPDATE] [hoch] WebKitGTK: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-1703",
+     "date": "2026-10-19T13:12:35+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in WebKitGTK ausnutzen, um Informationen offenzulegen, um einen Denial of Service Angriff durchzuführen, um einen Cross-Site Scripting Angriff durchzuführen, und um Sicherheitsvorkehrungen zu umgehen oder andere nicht spezifizierte…"
     },
     {
-     "title": "[NEU] [hoch] Apache Camel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4006",
-     "date": "2026-10-16T11:25:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Apache Camel ausnutzen, um beliebigen Programmcode auszuführen, um Informationen offenzulegen, um Dateien zu manipulieren und um Sicherheitsvorkehrungen zu umgehen."
+     "title": "[UPDATE] [mittel] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-1452",
+     "date": "2026-10-19T13:12:34+00:00",
+     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen und andere, nicht spezifizierte Auswirkungen zu verursachen."
     },
     {
-     "title": "[NEU] [mittel] Apache Airflow: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4005",
-     "date": "2026-10-16T11:25:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Apache Airflow ausnutzen, um Sicherheitsvorkehrungen zu umgehen oder Informationen offenzulegen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen ermöglichen Denial of Service",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-0975",
+     "date": "2026-10-19T13:12:33+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff oder einen unspezifischen Angriff durchzuführen."
     },
     {
-     "title": "[NEU] [hoch] Sonatype Nexus Repository Manager: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4004",
-     "date": "2026-10-16T11:20:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Sonatype Nexus Repository Manager ausnutzen, um Sicherheitsvorkehrungen zu umgehen, Informationen offenzulegen, beliebigen Programmcode auszuführen oder Administratorrechte zu erlangen, sowie um einen Cross-Site Scripting Angriff…"
+     "title": "[UPDATE] [hoch] Red Hat Enterprise Linux (libsoup): Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-0935",
+     "date": "2026-10-19T13:12:32+00:00",
+     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Red Hat Enterprise Linux ausnutzen, um Sicherheitsvorkehrungen zu umgehen, einen Denial-of-Service auszulösen, Dateien zu manipulieren oder Informationen offenzulegen."
     },
     {
-     "title": "[NEU] [mittel] FasterXML Jackson: Schwachstelle ermöglicht Denial of Service",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4003",
-     "date": "2026-10-16T10:45:51+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann eine Schwachstelle in FasterXML Jackson ausnutzen, um einen Denial of Service Angriff durchzuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-0844",
+     "date": "2026-10-19T13:12:31+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen oder andere, nicht genauer beschriebene Auswirkungen erzielen."
     },
     {
-     "title": "[NEU] [mittel] Grafana: Schwachstelle ermöglicht Manipulation von Daten",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4002",
-     "date": "2026-10-16T10:45:51+00:00",
-     "summary": "Ein entfernter, authentisierter Angreifer kann eine Schwachstelle in Grafana ausnutzen, um Daten zu manipulieren."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-0453",
+     "date": "2026-10-19T13:12:30+00:00",
+     "summary": "Ein entfernter Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen um die Vertraulichkeit, Integrität und Verfügbarkeit zu gefährden."
     }
    ]
   },
@@ -754,6 +754,30 @@
    "via": "known",
    "items": [
     {
+     "title": "Sanate vulnerabilità in prodotti SonicWall",
+     "link": "https://www.acn.gov.it/portale/w/sanate-vulnerabilita-in-prodotti-sonicwall",
+     "date": "2026-10-19T08:39:57+00:00",
+     "summary": "SonicWall ha rilasciato aggiornamenti di sicurezza per sanare due vulnerabilità con gravità \"alta\" che interessano Network Security Manager (NSM). Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto autenticato l'accesso ad…"
+    },
+    {
+     "title": "Aggiornamenti di sicurezza per prodotti MongoDB",
+     "link": "https://www.acn.gov.it/portale/w/aggiornamenti-di-sicurezza-per-prodotti-mongodb-2",
+     "date": "2026-10-19T08:17:42+00:00",
+     "summary": "MongoDB ha rilasciato aggiornamenti di sicurezza per sanare 5 nuove vulnerabilità, di cui 3 con gravità \"alta\", in MongoDB Server. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato, in determinate condizioni, di compromettere la…"
+    },
+    {
+     "title": "Aggiornamenti per prodotti Siemens",
+     "link": "https://www.acn.gov.it/portale/w/aggiornamenti-per-prodotti-siemens-29",
+     "date": "2026-10-19T07:46:17+00:00",
+     "summary": "Rilasciati aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” in Siemens Software Center, l'applicazione desktop ufficiale di Siemens (per Windows e Linux) che serve a scaricare, installare, attivare e gestire i prodotti software Digital Industries…"
+    },
+    {
+     "title": "Rilevate vulnerabilità in Drupal",
+     "link": "https://www.acn.gov.it/portale/w/rilevate-vulnerabilita-in-drupal",
+     "date": "2026-10-19T07:27:58+00:00",
+     "summary": "Rilevate 3 vulnerabilità, di cui una con gravità \"critica\", in Drupal, noto Content Management System (CMS) open source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto non autenticato di eseguire codice arbitrario sui sistemi…"
+    },
+    {
      "title": "Nextcloud: rilevato sfruttamento di una vulnerabilità nel componente Collabora Online Built-in CODE Server",
      "link": "https://www.acn.gov.it/portale/w/nextcloud-rilevato-sfruttamento-di-una-vulnerabilita-nel-componente-collabora-online-built-in-code-server",
      "date": "2026-10-16T13:37:42+00:00",
@@ -776,30 +800,6 @@
      "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-google-chrome-80",
      "date": "2026-10-16T09:59:24+00:00",
      "summary": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 10 nuove vulnerabilità di sicurezza, di cui 1 con gravità “critica” e 6 con gravità “alta”."
-    },
-    {
-     "title": "Rilevate vulnerabilità in Mattermost",
-     "link": "https://www.acn.gov.it/portale/w/rilevate-vulnerabilita-in-mattermost-2",
-     "date": "2026-10-16T09:40:55+00:00",
-     "summary": "Rilevate 27 vulnerabilità, di cui 1 con gravità “alta”, in Mattermost, piattaforma di collaborazione open-source progettata per la comunicazione interna di organizzazioni e aziende. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato…"
-    },
-    {
-     "title": "Risolte vulnerabilità in FreeRDP",
-     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-freerdp",
-     "date": "2026-10-16T09:08:31+00:00",
-     "summary": "Aggiornamenti di sicurezza sanano 10 vulnerabilità, di cui 6 con gravità “alta”, in FreeRDP, implementazione open source del protocollo Remote Desktop Protocol (RDP), utilizzato per collegarsi e controllare a distanza un computer. Tali vulnerabilità potrebbero consentire a un…"
-    },
-    {
-     "title": "BeyondTrust: rilevato sfruttamento in rete della CVE-2026-102764",
-     "link": "https://www.acn.gov.it/portale/w/beyondtrust-rilevato-sfruttamento-in-rete-della-cve-2026-102764",
-     "date": "2026-10-16T08:51:08+00:00",
-     "summary": "BeyondTrust ha rilevato lo sfruttamento in rete di una vulnerabilità con gravità “critica”, identificata tramite la CVE-2026-102764, in Remote Support, soluzione enterprise di assistenza remota."
-    },
-    {
-     "title": "Angular: disponibile PoC per lo sfruttamento delle CVE-2026-101895 e CVE-2026-101896",
-     "link": "https://www.acn.gov.it/portale/w/angular-disponibile-poc-per-lo-sfruttamento-delle-cve-2026-101895-e-cve-2026-101896",
-     "date": "2026-10-16T07:45:06+00:00",
-     "summary": "Angular ha rilasciato aggiornamenti di sicurezza che sanano 3 vulnerabilità, di cui 2 con gravità \"alta\", nei pacchetti npm @angular/platform-server e @angular/router, componenti per il rendering lato server e per la gestione dell'instradamento delle applicazioni web. Tra…"
     }
    ]
   },
@@ -939,6 +939,12 @@
    "via": "probed",
    "items": [
     {
+     "title": "European Cybersecurity Challenge 2026",
+     "link": "https://ncc-mita.gov.mt/news/european-cybersecurity-challenge-2026/",
+     "date": "2026-10-06T06:58:57+00:00",
+     "summary": "The European Cybersecurity Challenge 2026 brings teams from 42 countries and more than 400 young cybersecurity talents aged … Continued"
+    },
+    {
      "title": "European Commission Consultation on the Evaluation of the EU Dual-Use Regulation",
      "link": "https://ncc-mita.gov.mt/news/european-commission-consultation-on-the-evaluation-of-the-eu-dual-use-regulation/",
      "date": "2026-09-04T09:01:30+00:00",
@@ -979,12 +985,6 @@
      "link": "https://ncc-mita.gov.mt/security-tips/stop-childrens-exploitation-avoid-illegal-material/",
      "date": "2026-05-21T11:31:23+00:00",
      "summary": "The opportunity to download or share pornographic material is often the final stage of an illegal network that … Continued"
-    },
-    {
-     "title": "Ransomware alert: beware of suspicious links",
-     "link": "https://ncc-mita.gov.mt/security-tips/ransomware-alert-beware-of-suspicious-links/",
-     "date": "2026-05-08T09:16:59+00:00",
-     "summary": "A campaign on national television captures the despair of a senior executive after he inadvertently clicks an email … Continued"
     }
    ]
   },
@@ -993,6 +993,12 @@
    "feed": "https://advisories.ncsc.nl/rss/advisories",
    "via": "known",
    "items": [
+    {
+     "title": "NCSC-2026-0438 [1.00] [M/H] Kwetsbaarheden verholpen in Drupal Core en modules door Drupal",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0438",
+     "date": "2026-10-19T08:08:49+00:00",
+     "summary": "Drupal heeft kwetsbaarheden verholpen in de Drupal core Field UI module, Entity List module, Navigation module, Link module en het Gin administratie thema. De kwetsbaarheden betreffen meerdere modules binnen Drupal. In de Field UI module en de Entity List module is een remote…"
+    },
     {
      "title": "NCSC-2026-0437 [1.00] [H/H] Kwetsbaarheid verholpen in BeyondTrust Remote Support",
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0437",
@@ -1034,12 +1040,6 @@
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0431",
      "date": "2026-10-16T06:16:13+00:00",
      "summary": "IBM heeft meerdere beveiligingsproblemen opgelost in DataPower Gateway versies 10.5 tot 11.0 en een veelvoud aan onderliggende subcomponenten. De kwetsbaarheden betreffen een breed scala aan problemen zoals use-after-free bugs, race conditions, buffer overflows, null pointer…"
-    },
-    {
-     "title": "NCSC-2026-0430 [1.00] [M/H] Kwetsbaarheden verholpen in Juniper Networks Junos OS",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0430",
-     "date": "2026-10-16T06:11:46+00:00",
-     "summary": "Juniper heeft meerdere kwetsbaarheden verholpen in Junos OS. De kwetsbaarheden bevinden zich in verschillende componenten van Junos OS, waaronder de VXLAN Gateway Daemon (vgd), kmd op MX Series routers, SDK service met JDAF routing, TWAMP client (rmopd service), gRPC library,…"
     }
    ]
   },
@@ -1176,6 +1176,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Zloraba identitete podjetja na spletu: Kako ponudnikom prijaviti lažno stran ali zavajajočo domeno?",
+     "link": "https://www.cert.si/zloraba-identitete-podjetja-na-spletu/",
+     "date": "2026-10-19T13:06:18+00:00",
+     "summary": "Na spletu odkrijete stran, ki uporablja ime, logotip in podatke vašega podjetja. Kako ugotoviti, kdo omogoča njeno delovanje in kam poslati prijavo? The post Zloraba identitete podjetja na spletu: Kako ponudnikom prijaviti lažno stran ali zavajajočo domeno? appeared first on SI…"
+    },
+    {
      "title": "Prosta delovna mesta",
      "link": "https://www.cert.si/zaposlitev/",
      "date": "2026-10-08T12:24:23+00:00",
@@ -1216,12 +1222,6 @@
      "link": "https://www.cert.si/si-cert-2026-04/",
      "date": "2026-07-21T09:01:13+00:00",
      "summary": "Kritična veriga ranljivosti CVE-2026-63030 in CVE-2026-60137 v jedru sistema WordPress lahko napadalcu brez prijave omogoči popoln prevzem spletnega mesta. The post SI-CERT 2026-04 / Kritična ranljivost v WordPress jedru – WP2Shell appeared first on SI CERT ."
-    },
-    {
-     "title": "Lažna elektronska sporočila v imenu SURS ciljajo slovenska podjetja",
-     "link": "https://www.cert.si/lazna-elektronska-sporocila-v-imenu-surs-ciljajo-slovenska-podjetja/",
-     "date": "2026-07-08T12:11:57+00:00",
-     "summary": "Na SI-CERT-u smo v zadnjih dneh zaznali kampanjo lažnih elektronskih sporočil, v katerih se napadalci predstavljajo kot Statistični urad Republike Slovenije (SURS). Sporočila so namenjena predvsem podjetjem ter organizacijam, zlasti … The post Lažna elektronska sporočila v…"
     }
    ]
   },
@@ -1230,6 +1230,18 @@
    "feed": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "via": "known",
    "items": [
+    {
+     "title": "Validación incorrecta del origen en Remote Support de BeyondTrust",
+     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/validacion-incorrecta-del-origen-en-remote-support-de-beyondtrust",
+     "date": "2026-10-19T07:27:15+00:00",
+     "summary": "Validación incorrecta del origen en Remote Support de BeyondTrust Lun, 19/10/2026 - 09:27 Aviso Recursos Afectados BeyondTrust Remote Support, todas las versiones hasta la 26.2.3, inclusive. Descripción BeyondTrust ha publicado una vulnerabilidad crítica que podría permitir a…"
+    },
+    {
+     "title": "Ausencia de verificación de integridad en MobaXterm de Mobatek",
+     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ausencia-de-verificacion-de-integridad-en-mobaxterm-de-mobatek",
+     "date": "2026-10-19T07:03:55+00:00",
+     "summary": "Ausencia de verificación de integridad en MobaXterm de Mobatek Lun, 19/10/2026 - 09:03 Aviso Recursos Afectados MobaXterm Personal Edition (Portable), versión 26.4 GA, de Mobatek. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad alta que afecta…"
+    },
     {
      "title": "Gestión incorrecta de mayúsculas y minúsculas en Wazuh Manager",
      "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/gestion-incorrecta-de-mayusculas-y-minusculas-en-wazuh-manager",
@@ -1265,18 +1277,6 @@
      "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-stela-de-diaple-networking",
      "date": "2026-10-15T07:59:45+00:00",
      "summary": "Omisión de autenticación en Stela de Diaple Networking Jue, 15/10/2026 - 09:59 Aviso Recursos Afectados Stela, versiones anteriores a 1.60.1. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad crítica que afecta a Stela de Diaple Networking, un…"
-    },
-    {
-     "title": "Múltiples vulnerabilidades en productos de Juniper Networks",
-     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-juniper-networks",
-     "date": "2026-10-15T07:40:44+00:00",
-     "summary": "Múltiples vulnerabilidades en productos de Juniper Networks Jue, 15/10/2026 - 09:40 Aviso Recursos Afectados Las siguientes versiones de Junos OS: anteriores a 23.2R2-S7.7; 23.4 anteriores a 23.4R2-S8.13; 24.2 anteriores a 24.2R2-S5.5; 24.4 anteriores a 24.4R2-S5; 25.2…"
-    },
-    {
-     "title": "Inyección de código en PAN-OS de Palo Alto Networks",
-     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-en-pan-os-de-palo-alto-networks",
-     "date": "2026-10-15T07:40:43+00:00",
-     "summary": "Inyección de código en PAN-OS de Palo Alto Networks Jue, 15/10/2026 - 09:40 Aviso Recursos Afectados PAN-OS instalado en cortafuegos PA-Series y VM-Series, y en dispositivos Panorama virtuales y M-Series, en las siguientes versiones: PAN-OS 12.2, versiones anteriores a la…"
     }
    ]
   },
@@ -1831,6 +1831,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Redis security advisory (AV26-423) - Update 1",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/redis-security-advisory-av26-423",
+     "date": "2026-10-19T13:24:47+00:00",
+     "summary": ""
+    },
+    {
      "title": "Google security advisory (AV26-1060)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1060",
      "date": "2026-10-16T20:16:50+00:00",
@@ -1870,12 +1876,6 @@
      "title": "Mozilla security advisory (AV26-1057)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/mozilla-security-advisory-av26-1057",
      "date": "2026-10-16T14:19:42+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Palo Alto Networks security advisory (AV26-1056)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/palo-alto-networks-security-advisory-av26-1056",
-     "date": "2026-10-16T13:29:16+00:00",
      "summary": ""
     }
    ]
@@ -2051,6 +2051,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Critical Vulnerabilities in Juniper Devices",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-146",
+     "date": "2026-10-18T16:00:00+00:00",
+     "summary": "Attackers can exploit critical vulnerabilities in Juniper devices to execute arbitrary code, cause a denial-of-service condition, or gain root-level privileges. Patch immediately."
+    },
+    {
      "title": "Multiple Vulnerabilities in MariaDB Server",
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-144",
      "date": "2026-10-15T16:00:00+00:00",
@@ -2091,12 +2097,6 @@
      "link": "https://www.csa.gov.sg/alerts-and-advisories/advisories/advisory-on-quantum-safe-migration-for-organisations",
      "date": "2026-10-13T16:00:00+00:00",
      "summary": "The quantum threat could undermine the cryptography that protects digital information today. This advisory provides organisations with key milestones and practical steps to assess their quantum risk, develop a migration plan and prepare their systems for quantum-safe…"
-    },
-    {
-     "title": "Critical Vulnerability in Citrix NetScaler ADC and NetScaler Gateway",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-140",
-     "date": "2026-10-11T16:00:00+00:00",
-     "summary": "Attackers can exploit a critical vulnerability in Citrix NetScaler ADC and NetScaler Gateway to perform remote code execution or cause a denial of service on the affected system. Patch immediately."
     }
    ]
   },
