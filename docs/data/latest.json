@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T05:03:53+00:00",
+ "updated": "2026-10-20T11:52:34+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -314,6 +314,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Ni nationale råd til digital sikkerhed i små virksomheder",
+     "link": "https://samsik.dk/artikler/2026/10/ni-nationale-raad-til-digital-sikkerhed-i-smaa-virksomheder/",
+     "date": "2026-10-20T08:30:00+00:00",
+     "summary": "Tid, økonomi og ressourcer kan være nogle af årsagerne til, at især små virksomheder ikke har et tilstrækkeligt digitalt sikkerhedsniveau. Men cyberangreb kan have vidtrækkende konsekvenser, der rammer både den enkelte virksomhed, kunder eller leverandører. Styrelsen for…"
+    },
+    {
      "title": "Myndigheder, organisationer og virksomheder bør supplere deres identitetskontrol efter læk fra CPR-registeret",
      "link": "https://samsik.dk/artikler/2026/10/myndigheder-organisationer-og-virksomheder-boer-supplere-identitetskontrol/",
      "date": "2026-10-06T08:00:00+00:00",
@@ -354,12 +360,6 @@
      "link": "https://samsik.dk/artikler/2026/09/gode-raad-til-mental-trivsel-i-en-urolig-verden/",
      "date": "2026-09-03T04:00:00+00:00",
      "summary": "Styrelsen for Samfundssikkerhed har i samarbejde med Psykiatrifonden lavet syv gode råd til mental trivsel i en urolig tid. Hold fast i rutinerne og fokuser på det, du selv kan ændre. Det er to af de syv råd til at holde sig mentalt oven vande i en usikker tid. Alle kan nemlig…"
-    },
-    {
-     "title": "Sådan taler du med børn om kriser og bekymringer",
-     "link": "https://samsik.dk/artikler/2026/08/saadan-taler-du-med-boern-om-kriser-og-bekymringer/",
-     "date": "2026-08-26T04:00:00+00:00",
-     "summary": "En række organisationer er gået sammen med Styrelsen for Samfundssikkerhed for at hjælpe voksne med nogle af de svære samtaler med børn. I en urolig verden, hvor vi dagligt konfronteres med billeder og historier om krig, naturkatastrofer, ulykker og klimakriser, kan vi alle…"
     }
    ]
   },
@@ -479,6 +479,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "En 2025, le CERT-FR a suivi près de 200 violations de données issues d’applications web. Dans de nombreux cas, ces exfiltrations ont été permises par des actions attaquantes d’un faible niveau de complexité, sans exploitation de vulnérabilité technique. Les divulgations de…"
+    },
+    {
      "title": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
      "date": "2026-10-19T00:00:00+00:00",
@@ -519,12 +525,6 @@
      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1340/",
      "date": "2026-10-19T00:00:00+00:00",
      "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance…"
-    },
-    {
-     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1334/",
-     "date": "2026-10-16T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     }
    ]
   },
@@ -534,52 +534,52 @@
    "via": "known",
    "items": [
     {
-     "title": "[NEU] [mittel] IBM App Connect Enterprise: Schwachstelle ermöglicht Manipulation von Dateien",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4027",
-     "date": "2026-10-19T15:15:55+00:00",
-     "summary": "Ein lokaler Angreifer kann eine Schwachstelle in IBM App Connect Enterprise ausnutzen, um Dateien zu manipulieren."
+     "title": "[NEU] [mittel] TYPO3 Extensions: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4053",
+     "date": "2026-10-20T11:40:51+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in TYPO3 Extension ausnutzen, um Dateien zu manipulieren, um Informationen offenzulegen, um einen SQL-Injection Angriff durchzuführen, um einen Cross-Site Scripting Angriff durchzuführen und um Sicherheitsvorkehrungen zu umgehen."
     },
     {
-     "title": "[UPDATE] [mittel] RabbitMQ: Schwachstelle ermöglicht Denial of Service",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3736",
-     "date": "2026-10-19T15:15:55+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann eine Schwachstelle in RabbitMQ ausnutzen, um einen Denial of Service Angriff durchzuführen."
+     "title": "[UPDATE] [mittel] Red Hat Enterprise Linux (sequoia-openpgp, perl-DBI): Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3790",
+     "date": "2026-10-20T11:40:51+00:00",
+     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Red Hat Enterprise Linux ausnutzen, um Sicherheitsvorkehrungen zu umgehen, Daten zu manipulieren und einen Denial-of-Service-Zustand auszulösen."
     },
     {
-     "title": "[UPDATE] [mittel] PCRE (Perl Compatible Regular Expressions): Schwachstelle ermöglicht Codeausführung",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3622",
-     "date": "2026-10-19T15:15:55+00:00",
-     "summary": "Ein entfernter, authentisierter Angreifer kann eine Schwachstelle in PCRE (Perl Compatible Regular Expressions) ausnutzen, um möglicherweise beliebigen Code auszuführen, angrenzenden Speicher zu beschädigen oder einen Denial-of-Service-Zustand herbeizuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Schwachstelle ermöglicht Privilegieneskalation",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3871",
+     "date": "2026-10-20T11:35:52+00:00",
+     "summary": "Ein Angreifer kann eine Schwachstelle im Linux Kernel ausnutzen, um erweiterte Rechte zu erlangen."
     },
     {
-     "title": "[UPDATE] [mittel] GIMP: Schwachstelle ermöglicht Codeausführung und Denial of Service",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3570",
-     "date": "2026-10-19T15:15:55+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann eine Schwachstelle in GIMP ausnutzen, um beliebigen Programmcode auszuführen und um einen Denial of Service Angriff durchzuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4008",
+     "date": "2026-10-20T11:35:52+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen oder Root-Rechte zu erlangen."
     },
     {
-     "title": "[UPDATE] [hoch] GIMP: Schwachstelle ermöglicht Codeausführung und Denial of Service",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3406",
-     "date": "2026-10-19T15:15:54+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann eine Schwachstelle in GIMP ausnutzen, um beliebigen Programmcode auszuführen und um einen Denial of Service Angriff durchzuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3579",
+     "date": "2026-10-20T11:30:51+00:00",
+     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen Denial of Service Zustand herbeizuführen oder nicht näher spezifizierten Angriff durchzuführen."
     },
     {
-     "title": "[UPDATE] [hoch] GIMP Plugins: Mehrere Schwachstellen ermöglichen Codeausführung und DoS",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3358",
-     "date": "2026-10-19T15:15:54+00:00",
-     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen in GIMP ausnutzen, um beliebigen Programmcode auszuführen oder einen Denial-of-Service-Zustand herbeizuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3211",
+     "date": "2026-10-20T11:25:52+00:00",
+     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um Speicherfehler und Kernel-Abstürze beziehungsweise Denial-of-Service-Zustände auszulösen, Speicher außerhalb vorgesehener Grenzen auszulesen sowie in einzelnen Fällen weitere…"
     },
     {
-     "title": "[UPDATE] [hoch] PCRE2 (Perl Compatible Regular Expressions): Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3334",
-     "date": "2026-10-19T15:15:54+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in PCRE2 (Perl Compatible Regular Expressions) ausnutzen, um Sicherheitsvorkehrungen zu umgehen, Speicher zu beschädigen, Informationen offenzulegen oder Denial-of-Service-Zustände herbeizuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321",
+     "date": "2026-10-20T11:25:52+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um Sicherheitsmaßnahmen zu umgehen, Daten oder den Systemzustand zu manipulieren, Denial-of-Service-Zustände herbeizuführen oder andere, nicht näher spezifizierte Angriffe durchzuführen."
     },
     {
-     "title": "[UPDATE] [mittel] Oracle Java SE: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2897",
-     "date": "2026-10-19T15:15:53+00:00",
-     "summary": "Ein entfernter, anonymer oder authentisierter Angreifer kann mehrere Schwachstellen in Oracle Java SE ausnutzen, um die Vertraulichkeit, Integrität und Verfügbarkeit zu gefährden."
+     "title": "[UPDATE] [mittel] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3743",
+     "date": "2026-10-20T11:20:52+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen, möglicherweise einen Denial-of-Service-Angriff auszulösen, Daten zu manipulieren oder offenzulegen oder Sicherheitsmaßnahmen zu umgehen."
     }
    ]
   },
@@ -754,6 +754,36 @@
    "via": "known",
    "items": [
     {
+     "title": "Plex Media Server: rilevato sfruttamento in rete delle catena di attacco Plex2Shell",
+     "link": "https://www.acn.gov.it/portale/w/plex-media-server-rilevato-sfruttamento-in-rete-delle-catena-di-attacco-plex2shell",
+     "date": "2026-10-20T10:38:06+00:00",
+     "summary": "Rilevato lo sfruttamento attivo in rete delle vulnerabilità CVE-2026-96652 CVE-2026-96654 CVE-2026-96655 e CVE-2026-96656 - già sanate dal vendor - relative a Plex Media Server. Si evidenzia che risulta disponibile in rete un Proof of Concept (PoC) per lo sfruttamento…"
+    },
+    {
+     "title": "Vulnerabilità in prodotti ASUS",
+     "link": "https://www.acn.gov.it/portale/w/vulnerabilita-in-prodotti-asus-3",
+     "date": "2026-10-20T09:45:26+00:00",
+     "summary": "ASUS ha rilasciato aggiornamenti di sicurezza per sanare 3 vulnerabilità, di cui 2 con gravità \"alta\", in Armoury Crate e in ASUS Router Firmware."
+    },
+    {
+     "title": "Risolta vulnerabilità in Signal RingRTC",
+     "link": "https://www.acn.gov.it/portale/w/risolta-vulnerabilita-in-signal-ringrtc",
+     "date": "2026-10-20T08:17:57+00:00",
+     "summary": "Signal ha rilasciato aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “critica” in RingRTC, libreria middleware per la gestione delle chiamate audio e video."
+    },
+    {
+     "title": "Risolta vulnerabilità in Roundcube Webmail",
+     "link": "https://www.acn.gov.it/portale/w/risolta-vulnerabilita-in-roundcube-webmail",
+     "date": "2026-10-20T07:03:33+00:00",
+     "summary": "Rilasciati aggiornamenti di sicurezza per risolvere una vulnerabilità con gravità “alta” in Roundcube Webmail, noto gestore di posta elettronica open source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un attaccante remoto autenticato di eseguire comandi IMAP…"
+    },
+    {
+     "title": "Risolte vulnerabilità in Craft CMS",
+     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-craft-cms-2",
+     "date": "2026-10-20T06:53:45+00:00",
+     "summary": "Aggiornamenti di sicurezza sanano alcune vulnerabilità, di cui una con gravità “critica” e 7 con gravità “alta”, in Craft CMS, noto strumento per la gestione di siti web e-commerce. Tali vulnerabilità potrebbero consentire a un attaccante remoto, in alcuni casi non autenticato,…"
+    },
+    {
      "title": "Sanate vulnerabilità in prodotti SonicWall",
      "link": "https://www.acn.gov.it/portale/w/sanate-vulnerabilita-in-prodotti-sonicwall",
      "date": "2026-10-19T08:39:57+00:00",
@@ -770,36 +800,6 @@
      "link": "https://www.acn.gov.it/portale/w/aggiornamenti-per-prodotti-siemens-29",
      "date": "2026-10-19T07:46:17+00:00",
      "summary": "Rilasciati aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” in Siemens Software Center, l'applicazione desktop ufficiale di Siemens (per Windows e Linux) che serve a scaricare, installare, attivare e gestire i prodotti software Digital Industries…"
-    },
-    {
-     "title": "Rilevate vulnerabilità in Drupal",
-     "link": "https://www.acn.gov.it/portale/w/rilevate-vulnerabilita-in-drupal",
-     "date": "2026-10-19T07:27:58+00:00",
-     "summary": "Rilevate 3 vulnerabilità, di cui una con gravità \"critica\", in Drupal, noto Content Management System (CMS) open source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto non autenticato di eseguire codice arbitrario sui sistemi…"
-    },
-    {
-     "title": "Nextcloud: rilevato sfruttamento di una vulnerabilità nel componente Collabora Online Built-in CODE Server",
-     "link": "https://www.acn.gov.it/portale/w/nextcloud-rilevato-sfruttamento-di-una-vulnerabilita-nel-componente-collabora-online-built-in-code-server",
-     "date": "2026-10-16T13:37:42+00:00",
-     "summary": "Questo CSIRT ha rilevato, nel contesto nazionale, una compromissione di un server Nextcloud attraverso lo sfruttamento della vulnerabilità identificata tramite la CVE-2026-110447, con gravità “critica”, nel componente Collabora Online - Built-in CODE Server (richdocumentscode),…"
-    },
-    {
-     "title": "Microsoft Entra ID: sfruttamento di tecniche di consent phishing per l'acquisizione di autorizzazioni applicative",
-     "link": "https://www.acn.gov.it/portale/w/microsoft-entra-id-sfruttamento-di-tecniche-di-consent-phishing-per-l-acquisizione-di-autorizzazioni-applicative",
-     "date": "2026-10-16T13:26:24+00:00",
-     "summary": "È stato recentemente documentato l’utilizzo sistematico di tecniche di “consent phishing” volto al rilascio di consensi illeciti (illicit consent grants) ai danni di infrastrutture basate su Microsoft Entra ID e suite Microsoft 365."
-    },
-    {
-     "title": "Risolte vulnerabilità in prodotti JetBrains",
-     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-prodotti-jetbrains-3",
-     "date": "2026-10-16T10:05:19+00:00",
-     "summary": "JetBrains ha rilasciato aggiornamenti di sicurezza per sanare molteplici vulnerabilità di sicurezza, di cui 1 con gravità \"critica\" e 4 con gravità “alta”, in diversi prodotti. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i…"
-    },
-    {
-     "title": "Risolte vulnerabilità in Google Chrome",
-     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-google-chrome-80",
-     "date": "2026-10-16T09:59:24+00:00",
-     "summary": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 10 nuove vulnerabilità di sicurezza, di cui 1 con gravità “critica” e 6 con gravità “alta”."
     }
    ]
   },
@@ -1232,6 +1232,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Múltiples vulnerabilidades en FacturaScripts",
+     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-facturascripts",
+     "date": "2026-10-20T07:14:47+00:00",
+     "summary": "Múltiples vulnerabilidades en FacturaScripts Mar, 20/10/2026 - 09:14 Aviso Recursos Afectados FacturaScripts:2025.61 Descripción INCIBE ha coordinado la publicación de 2 vulnerabilidades de severidad media, que afectan a FacturaScripts, un software libre de contabilidad y…"
+    },
+    {
      "title": "Validación incorrecta del origen en Remote Support de BeyondTrust",
      "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/validacion-incorrecta-del-origen-en-remote-support-de-beyondtrust",
      "date": "2026-10-19T07:27:15+00:00",
@@ -1272,12 +1278,6 @@
      "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/server-side-request-forgery-en-la-exportacion-pdf-de-wegow",
      "date": "2026-10-16T07:25:00+00:00",
      "summary": "Server-Side Request Forgery en la exportación a PDF de Wegow Vie, 16/10/2026 - 09:25 Aviso Recursos Afectados Funcionalidad de exportación a PDF de gráficos de ventas de entradas del portal backoffice.wegow.com. Descripción INCIBE ha coordinado la publicación de una…"
-    },
-    {
-     "title": "Omisión de autenticación en Stela de Diaple Networking",
-     "link": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-stela-de-diaple-networking",
-     "date": "2026-10-15T07:59:45+00:00",
-     "summary": "Omisión de autenticación en Stela de Diaple Networking Jue, 15/10/2026 - 09:59 Aviso Recursos Afectados Stela, versiones anteriores a 1.60.1. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad crítica que afecta a Stela de Diaple Networking, un…"
     }
    ]
   },
@@ -1667,16 +1667,22 @@
    "via": "known",
    "items": [
     {
-     "title": "Post-quantum updates to our TLS guidance",
-     "link": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
-     "date": "2026-10-15T12:00:00+00:00",
-     "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate."
+     "title": "Introducing a new AI chapter in the NCSC research problem book",
+     "link": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+     "date": "2026-10-20T12:00:00+00:00",
+     "summary": "A revolution is underway at the intersection of AI and cyber security."
     },
     {
      "title": "Using TLS to protect data",
      "link": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
      "date": "2026-10-15T12:00:00+00:00",
      "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions."
+    },
+    {
+     "title": "Post-quantum updates to our TLS guidance",
+     "link": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+     "date": "2026-10-15T12:00:00+00:00",
+     "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate."
     },
     {
      "title": "Help the NCSC understand how organisations approach external attack surface risk",
@@ -1707,12 +1713,6 @@
      "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
      "date": "2026-09-21T12:00:00+00:00",
      "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence."
-    },
-    {
-     "title": "Adversary simulation: what you need to know",
-     "link": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know",
-     "date": "2026-09-17T12:00:00+00:00",
-     "summary": "Adversary simulation ('red teaming') tests your ability to prevent, detect and respond to cyber attacks."
     }
    ]
   },
@@ -1997,6 +1997,36 @@
    "via": "known",
    "items": [
     {
+     "title": "F5 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad729e7b5290478048f2c25",
+     "date": "2026-10-20T08:44:23+00:00",
+     "summary": "□ 개요 o F5社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\]\\~\\[5\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o NGINX Plus, NGINX Open Source에서 발생하는 Heap-based Buffer Overflow 취약점(CVE-2026-15176) \\[1\\]\\[6\\] o NGINX Plus, NGINX Open Source에서 발생하는 Heap-based Buffer Overflow…"
+    },
+    {
+     "title": "Plex 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad729cdb5290478048f2c20",
+     "date": "2026-10-20T08:43:57+00:00",
+     "summary": "□ 개요 o Plex社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Plex Media Server에서 발생하는 Path Traversal 취약점(CVE-2026-96651) \\[1\\]\\[2\\] o Plex Media Server에서 발생하는 SSRF 취약점(CVE-2026-96652) \\[1\\]\\[3\\] o Plex Media Server에서 발생하는…"
+    },
+    {
+     "title": "Adobe 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad729b4b5290478048f2c1d",
+     "date": "2026-10-20T08:43:32+00:00",
+     "summary": "□ 개요 o Adobe社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Adobe Acrobat, Acrobat Reader, Acrobat 2024에서 발생하는 Out-of-bounds Write 취약점(CVE-2026-81983) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 |…"
+    },
+    {
+     "title": "Vercel 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad72996b5290478048f2c19",
+     "date": "2026-10-20T08:43:02+00:00",
+     "summary": "□ 개요 o Vercel社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Next.js에서 발생하는 Use After Free 취약점(CVE-2026-96889) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:|:---:| | CVE-2026-96889 | Next.js…"
+    },
+    {
+     "title": "사이버이메지네이션 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad6fd86b5290478048f2891",
+     "date": "2026-10-20T05:35:02+00:00",
+     "summary": "□ 개요 o 사이버이메지네이션社 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o D-Bridge에서 발생하는 외부를 통한 내부 관리자 경로 접근 가능한 취약점 □ 영향을 받는 제품 및 해결 방안 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:| | D-Bridge | 1.4 미만 | 2.5 이상 | ※ 하단의 참고 사이트를 확인하여 업데이트…"
+    },
+    {
      "title": "Palo Alto Networks 제품 보안 업데이트 권고",
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad17aa3b5290478048effe0",
      "date": "2026-10-16T01:15:15+00:00",
@@ -2013,36 +2043,6 @@
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad0c6c0b5290478048efbec",
      "date": "2026-10-15T12:27:44+00:00",
      "summary": "□ 개요 o Cisco社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 해당 취약점은 실제 공격에 악용되고 있으며, 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Cisco Secure Email Gateway에서 발생하는 임의 파일 기록(Arbitrary File Write) 취약점(CVE-2026-76519) [1][2] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 |…"
-    },
-    {
-     "title": "MS 10월 보안 위협에 따른 정기 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad07b97b5290478048ef9ac",
-     "date": "2026-10-15T07:07:03+00:00",
-     "summary": "□ 10월 보안업데이트 개요 (총 14 종) o 등급 : 긴급 (Critical) 10 종 , 중요 (Important) 4 종 o 발표일 : 2026.10.13.(화) o 업데이트 내용 | 제품군 | 중요도 | 영향 | |:---:|:---:|:---:| | Windows 11 | 긴급 | 권한 상승 | | Windows Server 2025 | 긴급 | 권한 상승 | | Windows Server 2022 | 긴급 | 권한 상승 | | Windows Server 2019 | 긴급 | 권한…"
-    },
-    {
-     "title": "美 CISA 발표 주요 Exploit 정보공유(Update. 2026-10-15)",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6acf98f09e21d393f046f66e",
-     "date": "2026-10-14T15:00:00+00:00",
-     "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2026-21589 | Atlassian | Atlassian Multiple Products Files or Directories Accessible to External…"
-    },
-    {
-     "title": "GitLab 제품 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6acf2067b5290478048eea80",
-     "date": "2026-10-14T06:25:43+00:00",
-     "summary": "□ 개요 o GitLab社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\]\\[2\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o GitLab CE/EE에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-97229) \\[1\\]\\[3\\] o GitLab CE/EE에서 발생하는 Cross-site Scripting 취약점(CVE-2026-92883) \\[1\\]\\[4\\] o…"
-    },
-    {
-     "title": "Ivanti 제품 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6acf2047b5290478048eea7a",
-     "date": "2026-10-14T06:25:11+00:00",
-     "summary": "□ 개요 o Ivanti社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Ivanti Connect Secure에서 발생하는 Authentication Bypass by Spoofing 취약점(CVE-2026-104935) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 |…"
-    },
-    {
-     "title": "美 CISA 발표 주요 Exploit 정보공유(Update. 2026-10-14)",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ace47709ef9a3deea971031",
-     "date": "2026-10-13T15:00:00+00:00",
-     "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2026-0322 | Palo Alto Networks | Palo Alto Networks PAN-OS Code Injection Vulnerability | Palo…"
     }
    ]
   },
@@ -2051,6 +2051,24 @@
    "feed": "https://www.csa.gov.sg/alerts-and-advisories/rss.xml",
    "via": "discovered",
    "items": [
+    {
+     "title": "Advantech ADAM-3600 EdgeLink – Multiple Vulnerabilities including Remote Code Execution, Authentication Bypass, and Sensitive Data Exfiltration",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-149",
+     "date": "2026-10-19T16:00:00+00:00",
+     "summary": "Multiple vulnerabilities have been discovered in Advantech's ADAM-3600 EdgeLink remote terminal unit product. Advantech has released a security update to address these vulnerabilities. Special thanks to Advantech for coordinating the disclosure of these vulnerabilities with CSA."
+    },
+    {
+     "title": "Critical Vulnerabilities in Next.js",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-148",
+     "date": "2026-10-19T16:00:00+00:00",
+     "summary": "Attackers can exploit critical vulnerabilities in Next.js to perform remote code execution. Patch immediately."
+    },
+    {
+     "title": "Active Exploitation of Vulnerability in Ivanti Connect Secure",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-147",
+     "date": "2026-10-19T16:00:00+00:00",
+     "summary": "Attackers are exploiting a high-severity vulnerability in Ivanti Connect Secure to execute arbitrary commands. Patch immediately."
+    },
     {
      "title": "Critical Vulnerabilities in Juniper Devices",
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-146",
@@ -2080,24 +2098,6 @@
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-142",
      "date": "2026-10-13T16:00:00+00:00",
      "summary": "Microsoft has released security patches to address multiple vulnerabilities in their software and products."
-    },
-    {
-     "title": "Critical Vulnerability in GitLab Community Edition and Enterprise Edition",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-141",
-     "date": "2026-10-13T16:00:00+00:00",
-     "summary": "Attackers can exploit a critical vulnerability in GitLab Community Edition and Enterprise Edition to perform remote code execution without authentication. Patch immediately."
-    },
-    {
-     "title": "Security Bulletin 14 Oct 2026 [PDF, 2MB]",
-     "link": "https://isomer-user-content.by.gov.sg/36/41004bcb-4c74-4ab2-a1be-a28de8ee59c1/14_Oct_2026.pdf",
-     "date": "2026-10-13T16:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Advisory on Quantum-Safe Migration for Organisations",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/advisories/advisory-on-quantum-safe-migration-for-organisations",
-     "date": "2026-10-13T16:00:00+00:00",
-     "summary": "The quantum threat could undermine the cryptography that protects digital information today. This advisory provides organisations with key milestones and practical steps to assess their quantum risk, develop a migration plan and prepare their systems for quantum-safe…"
     }
    ]
   },
