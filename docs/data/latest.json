@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T22:31:16+00:00",
+ "updated": "2026-10-20T05:03:53+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -1048,7 +1048,7 @@
    "status": "no-feed",
    "blocked": false,
    "tried": [
-    "https://www.cncs.gov.pt/ (discovery: HTTPError 513)",
+    "https://www.cncs.gov.pt/ (discovery: URLError)",
     "https://www.cncs.gov.pt/pt/ (discovery: HTTPError 513)",
     "https://www.cncs.gov.pt/feed/",
     "https://www.cncs.gov.pt/rss.xml",
@@ -2192,6 +2192,24 @@
    "via": "known",
    "items": [
     {
+     "title": "Fortinet Products Elevation of Privilege Vulnerability",
+     "link": "https://www.hkcert.org/security-bulletin/fortinet-products-elevation-of-privilege-vulnerability_20261020",
+     "date": "2026-10-20T03:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "BeyondTrust Remote Support Security Restriction Bypass Vulnerability",
+     "link": "https://www.hkcert.org/security-bulletin/beyondtrust-remote-support-security-restriction-bypass-vulnerability_20261020",
+     "date": "2026-10-20T01:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Microsoft Edge Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/microsoft-edge-multiple-vulnerabilities_20261020",
+     "date": "2026-10-20T01:00:00+00:00",
+     "summary": ""
+    },
+    {
      "title": "Google Chrome Multiple Vulnerabilities",
      "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261016",
      "date": "2026-10-16T03:00:00+00:00",
@@ -2219,24 +2237,6 @@
      "title": "Palo Alto Products Multiple Vulnerabilities",
      "link": "https://www.hkcert.org/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261015",
      "date": "2026-10-15T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Juniper Junos OS Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/juniper-junos-os-multiple-vulnerabilities_20261015",
-     "date": "2026-10-15T01:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Adobe Monthly Security Update (October 2026)",
-     "link": "https://www.hkcert.org/security-bulletin/adobe-monthly-security-update-october-2026",
-     "date": "2026-10-14T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Microsoft Monthly Security Update (October 2026)",
-     "link": "https://www.hkcert.org/security-bulletin/microsoft-monthly-security-update-october-2026",
-     "date": "2026-10-14T03:00:00+00:00",
      "summary": ""
     }
    ]
