@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:21:45+00:00",
+ "updated": "2026-10-20T21:47:04+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -934,7 +934,7 @@
    ]
   },
   "csirt-mt": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
@@ -986,7 +986,8 @@
      "date": "2026-05-21T11:31:23+00:00",
      "summary": "The opportunity to download or share pornographic material is often the final stage of an illegal network that … Continued"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "ncsc-nl": {
    "status": "ok",
@@ -1360,6 +1361,12 @@
    "via": "known",
    "items": [
     {
+     "title": "2026-018: Critical Vulnerabilities in PHP",
+     "link": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+     "date": "2026-10-20T22:33:27+00:00",
+     "summary": "On 20 October 2026, the PHP foundation announced an upcoming security release addressing two critical vulnerabilities in PHP that could lead to remote code execution, according to other leaks. At this time, no technical details have been made public. CERT-EU advises…"
+    },
+    {
      "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
      "link": "https://cert.europa.eu/publications/security-advisories/2026-017/",
      "date": "2026-10-15T11:38:20+00:00",
@@ -1400,12 +1407,6 @@
      "link": "https://cert.europa.eu/publications/security-advisories/2026-011/",
      "date": "2026-09-09T15:07:59+00:00",
      "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended…"
-    },
-    {
-     "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-010/",
-     "date": "2026-08-19T18:13:47+00:00",
-     "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). CERT-EU recommends updating affected devices as soon as possible."
     }
    ]
   },
@@ -1415,28 +1416,28 @@
    "via": "api",
    "items": [
     {
-     "title": "EUVD-2026-102427 (CVE-2026-102764) · CVSS 9.3",
-     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-102427",
-     "date": "2026-10-15T20:30:32+00:00",
-     "summary": "The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perform file operations on the appliance."
+     "title": "EUVD-2026-85370 (CVE-2026-96656) · CVSS 8.6",
+     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-85370",
+     "date": "2026-09-23T16:07:10+00:00",
+     "summary": "Plex Media Server before 1.43.3.10861 allows an admin user to write arbitrary files that may be executed on load. The preference TranscoderH264Options is appended verbatim to x264's option string on every transcode. At startup, all .so files are run without signature, execute…"
     },
     {
-     "title": "EUVD-2026-102072 (CVE-2026-110936) · CVSS 8.4",
-     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-102072",
-     "date": "2026-10-15T14:01:17+00:00",
-     "summary": "A vulnerability has been identified in Siemens Software Center (All versions < V4.0.9.8). The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a…"
+     "title": "EUVD-2026-85369 (CVE-2026-96655) · CVSS 5.3",
+     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-85369",
+     "date": "2026-09-23T16:06:53+00:00",
+     "summary": "Plex Media Server before 1.43.3.10861 allows an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter."
     },
     {
-     "title": "EUVD-2026-92807 (GHSA-gr66-x5pq-8g2g) · CVSS 9.3",
-     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-92807",
-     "date": "2026-10-05T21:30:00+00:00",
-     "summary": "This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to…"
+     "title": "EUVD-2026-85368 (GHSA-3j7c-jr86-m5jq) · CVSS 6.9",
+     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-85368",
+     "date": "2026-09-23T16:06:35+00:00",
+     "summary": "Plex Media Server before 1.43.3.10861 does not correctly neutralize URL values included in 'searchOne,' allowing an attacker to call other plugins' functions and supply their own parameters."
     },
     {
-     "title": "EUVD-2025-209452 (GHSA-f3vf-64gv-cxr8) · CVSS 5.4",
-     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2025-209452",
-     "date": "2026-04-14T15:39:51+00:00",
-     "summary": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] vulnerability in Fortinet FortiOS 7.6.0 through 7.6.4, FortiOS 7.4.0 through 7.4.9, FortiOS 7.2 all versions, FortiOS 7.0 all versions, FortiOS 6.4 all versions, FortiPAM 1.7.0, FortiPAM…"
+     "title": "EUVD-2026-85367 (CVE-2026-96652) · CVSS 5.3",
+     "link": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-85367",
+     "date": "2026-09-23T16:06:15+00:00",
+     "summary": "Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token value can include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination."
     }
    ]
   },
@@ -1776,6 +1777,12 @@
    "via": "known",
    "items": [
     {
+     "title": "VU#645818: Xerj Console API Authentication Bypass Leads to Unauthorized Credential Minting",
+     "link": "https://kb.cert.org/vuls/id/645818",
+     "date": "2026-10-20T18:09:44.460556+00:00",
+     "summary": "Overview An authentication bypass vulnerability in the Xerj Console API allows sessions to bypass passkey-backed requirements during token issuance. By exploiting this flaw, an attacker with an existing valid token can create independent, persistent successor credentials…"
+    },
+    {
      "title": "VU#410595: Google BoringSSL Name Constraints Bypass in SAN Validation Logic",
      "link": "https://kb.cert.org/vuls/id/410595",
      "date": "2026-10-14T15:11:33.058399+00:00",
@@ -1816,12 +1823,6 @@
      "link": "https://kb.cert.org/vuls/id/157374",
      "date": "2026-10-13T18:14:02.229148+00:00",
      "summary": "Overview Shopware 6.7 contains a stored cross-site scripting (XSS) vulnerability in its media upload functionality that can lead to administrator credential compromise and remote code execution. Description Shopware is an open-source e-commerce platform used to build and manage…"
-    },
-    {
-     "title": "VU#162329: Multiple vulnerabilities in Thelia 2.6.0 and 2.6.1",
-     "link": "https://kb.cert.org/vuls/id/162329",
-     "date": "2026-10-12T14:52:17.431997+00:00",
-     "summary": "Overview Thelia versions 2.6.0 and 2.6.1 contain multiple vulnerabilities relating to file management, Smarty templating, module installation, and administrative workflows. Successful exploitation of these issues could enable remote code execution (RCE), server-side template…"
     }
    ]
   },
@@ -1830,6 +1831,24 @@
    "feed": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
    "via": "discovered",
    "items": [
+    {
+     "title": "Craft CMS security advisory (AV26-1067)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/craft-cms-security-advisory-av26-1067",
+     "date": "2026-10-20T20:04:46+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Siemens security advisory (AV26-1063) – Update 1",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/siemens-security-advisory-av26-1063",
+     "date": "2026-10-20T19:57:09+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Gitea security advisory (AV26-845) - Update 1",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/gitea-security-advisory-av26-845",
+     "date": "2026-10-20T17:33:03+00:00",
+     "summary": ""
+    },
     {
      "title": "[Control systems] GeoVision security advisory (AV26-1066)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-geovision-security-advisory-av26-1066",
@@ -1849,12 +1868,6 @@
      "summary": ""
     },
     {
-     "title": "Siemens security advisory (AV26-1063)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/siemens-security-advisory-av26-1063",
-     "date": "2026-10-19T20:37:35+00:00",
-     "summary": ""
-    },
-    {
      "title": "Eptura security advisory (AV26-1062)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/eptura-security-advisory-av26-1062",
      "date": "2026-10-19T20:30:24+00:00",
@@ -1864,18 +1877,6 @@
      "title": "Red Hat security advisory (AV26-1061)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/red-hat-security-advisory-av26-1061",
      "date": "2026-10-19T20:20:30+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Redis security advisory (AV26-423) - Update 1",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/redis-security-advisory-av26-423",
-     "date": "2026-10-19T13:24:47+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Google security advisory (AV26-1060)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1060",
-     "date": "2026-10-16T20:16:50+00:00",
      "summary": ""
     }
    ]
@@ -2026,6 +2027,12 @@
      "summary": "□ 개요 o 사이버이메지네이션社 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o D-Bridge에서 발생하는 외부를 통한 내부 관리자 경로 접근 가능한 취약점 □ 영향을 받는 제품 및 해결 방안 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:| | D-Bridge | 1.4 미만 | 2.5 이상 | ※ 하단의 참고 사이트를 확인하여 업데이트…"
     },
     {
+     "title": "美 CISA 발표 주요 Exploit 정보공유(Update. 2026-10-20)",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad63070a9a1f3151f8b79e9",
+     "date": "2026-10-19T15:00:00+00:00",
+     "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2026-110936 | Siemens | Siemens Software Center Uncontrolled Search Path Element Vulnerability |…"
+    },
+    {
      "title": "Palo Alto Networks 제품 보안 업데이트 권고",
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad17aa3b5290478048effe0",
      "date": "2026-10-16T01:15:15+00:00",
@@ -2036,12 +2043,6 @@
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad0ea706af80d7109178051",
      "date": "2026-10-15T15:00:00+00:00",
      "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2025-61624 | Fortinet | Fortinet Multiple Products Path Traversal Vulnerability | FortiOS,…"
-    },
-    {
-     "title": "Cisco 제품 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad0c6c0b5290478048efbec",
-     "date": "2026-10-15T12:27:44+00:00",
-     "summary": "□ 개요 o Cisco社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 해당 취약점은 실제 공격에 악용되고 있으며, 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Cisco Secure Email Gateway에서 발생하는 임의 파일 기록(Arbitrary File Write) 취약점(CVE-2026-76519) [1][2] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 |…"
     }
    ]
   },
