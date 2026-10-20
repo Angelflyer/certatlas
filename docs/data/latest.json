@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:52:34+00:00",
+ "updated": "2026-10-20T17:21:45+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -485,6 +485,18 @@
      "summary": "En 2025, le CERT-FR a suivi près de 200 violations de données issues d’applications web. Dans de nombreux cas, ces exfiltrations ont été permises par des actions attaquantes d’un faible niveau de complexité, sans exploitation de vulnérabilité technique. Les divulgations de…"
     },
     {
+     "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+     "title": "Multiples vulnérabilités dans Laravel (20 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
+    },
+    {
      "title": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
      "date": "2026-10-19T00:00:00+00:00",
@@ -513,18 +525,6 @@
      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
      "date": "2026-10-19T00:00:00+00:00",
      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-     "title": "Multiples vulnérabilités dans Stormshield Network Security (19 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1339/",
-     "date": "2026-10-19T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique de…"
-    },
-    {
-     "title": "Multiples vulnérabilités dans Roundcube Webmail (19 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1340/",
-     "date": "2026-10-19T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance…"
     }
    ]
   },
@@ -589,6 +589,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Φρένο στις συνδέσεις των πάντων στο διαδίκτυο, βάζει ο Διοικητής της ΕΑΚ Μ. Μπλέτσας μιλώντας στο Cyber Security Forum 2026",
+     "link": "https://cyber.gov.gr/freno-stis-syndeseis-ton-panton-sto-diadiktyo-vazei-o-dioikitis-tis-eak-m-mpletsas-milontas-sto-cyber-security-forum-2026/",
+     "date": "2026-10-20T12:14:33+00:00",
+     "summary": "Όρια στην ολοένα και μεγαλύτερη διασύνδεση συσκευών και υποδομών στο διαδίκτυο, έθεσε ο Διοικητής της ΕΑΚ Μ. Μπλέτσας -μιλώντας στο Cyber Security Forum 2026- επισημαίνοντας ότι η πρακτική αυτή… Το άρθρο Φρένο στις συνδέσεις των πάντων στο διαδίκτυο, βάζει ο Διοικητής της ΕΑΚ…"
+    },
+    {
      "title": "Microsoft 365 και απαιτήσεις κυβερνοασφάλειας: Ένα δωρεάν διαδικτυακό εργαλείο για να επιλέξετε την κατάλληλη άδεια για την ΚΥΑ 1689/2025 και την Οδηγία NIS2",
      "link": "https://cyber.gov.gr/microsoft-365-kai-apaitiseis-kyvernoasfaleias-ena-dorean-diadiktyako-ergaleio-gia-na-epilexete-tin-katallili-adeia-gia-tin-kya-1689-2025-kai-tin-odigia-nis2/",
      "date": "2026-10-16T12:07:55+00:00",
@@ -629,12 +635,6 @@
      "link": "https://cyber.gov.gr/prosklisi-se-diadiktyaka-mathimata-kyvernoasfaleias-dorean-kai-pistopoioymena-meso-toy-eyropaikoy-ergoy-cadmus/",
      "date": "2026-09-29T11:18:14+00:00",
      "summary": "Σας προσκαλούμε να παρακολουθήσετε, δωρεάν, τα πιστοποιούμενα διαδικτυακά μαθήματα Κυβερνοασφάλειας που προσφέρονται, μέσω της πλατφόρμας του Ευρωπαϊκού έργου CADMUS . To έργο συντονίζει η Εθνική Αρχή Κυβερνοασφάλειας (ΕΑΚ), σε συνεργασία με… Το άρθρο Πρόσκληση σε διαδικτυακά…"
-    },
-    {
-     "title": "«Η Κυβερνοασφάλεια απαιτεί συνεχή γνώση και υπεύθυνη ψηφιακή συμπεριφορά απ’ όλους μας» Όλα όσα δήλωσε ο Υποδιοικητής της ΕΑΚ Ι. Παυλόσογλου στο podcast του Αλέξανδρου Κόντη στο Real fm",
-     "link": "https://cyber.gov.gr/i-kyvernoasfaleia-apaitei-synechi-gnosi-kai-ypeythyni-psifiaki-symperifora-ap-oloys-mas-ola-osa-dilose-o-ypodioikitis-tis-eak-i-paylosogloy-sto-podcast-toy-alexandroy-konti-sto-r/",
-     "date": "2026-09-29T07:24:02+00:00",
-     "summary": "Για τον ρόλο και την αποστολή της νεοσύστατης Εθνικής Αρχής Κυβερνοασφάλειας, τη σύγχρονη εικόνα των κυβερνοαπειλών όπως διαμορφώνεται και με τη χρήση της Τεχνητής Νοημοσύνης, αλλά και για τους βασικούς… Το άρθρο «Η Κυβερνοασφάλεια απαιτεί συνεχή γνώση και υπεύθυνη ψηφιακή…"
     }
    ]
   },
@@ -699,6 +699,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Critical Vulnerability Authentication Bypass in BeyondTrust Remote Support (CVE-2026-102764)",
+     "link": "https://www.ncsc.gov.ie/pdfs/2610200276_CVE-2026-102764.pdf",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": ""
+    },
+    {
      "title": "Critical Vulnerability in Cisco Secure Email Gateway (CVE-2026-76519)",
      "link": "https://www.ncsc.gov.ie/pdfs/2610150240_CVE-2026-76519.pdf",
      "date": "2026-10-15T00:00:00+00:00",
@@ -739,12 +745,6 @@
      "link": "https://www.ncsc.gov.ie/pdfs/2610020234_CVE-2026-104286.pdf",
      "date": "2026-10-02T00:00:00+00:00",
      "summary": ""
-    },
-    {
-     "title": "Critical vulnerability in Cisco Catalyst SD-WAN Manager (CVE-2026-76504)",
-     "link": "https://www.ncsc.gov.ie/pdfs/2610010256_CVE-2026-76504.pdf",
-     "date": "2026-10-01T00:00:00+00:00",
-     "summary": ""
     }
    ]
   },
@@ -753,6 +753,18 @@
    "feed": "https://www.acn.gov.it/portale/feedrss/-/journal/rss/20119/723192",
    "via": "known",
    "items": [
+    {
+     "title": "Risolte vulnerabilità in Stormshield Network Security",
+     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-stormshield-network-security",
+     "date": "2026-10-20T13:42:13+00:00",
+     "summary": "Stormshield ha rilasciato aggiornamenti di sicurezza per sanare alcune vulnerabilità, di cui 2 con gravità “alta”, nel prodotto Stormshield Network Security. Tali vulnerabilità potrebbero consentire a un attaccante non autenticato di eludere i meccanismi di autenticazione sui…"
+    },
+    {
+     "title": "Vulnerabilità in MongoDB",
+     "link": "https://www.acn.gov.it/portale/w/vulnerabilita-in-mongodb",
+     "date": "2026-10-20T12:38:21+00:00",
+     "summary": "MongoDB ha rilasciato aggiornamenti di sicurezza che sanano una vulnerabilità con gravità \"alta\" nella libreria PHP Driver. Tale vulnerabilità, qualora sfruttata, potrebbe permettere a un utente malintenzionato remoto di compromettere la disponibilità del servizio sui sistemi…"
+    },
     {
      "title": "Plex Media Server: rilevato sfruttamento in rete delle catena di attacco Plex2Shell",
      "link": "https://www.acn.gov.it/portale/w/plex-media-server-rilevato-sfruttamento-in-rete-delle-catena-di-attacco-plex2shell",
@@ -788,18 +800,6 @@
      "link": "https://www.acn.gov.it/portale/w/sanate-vulnerabilita-in-prodotti-sonicwall",
      "date": "2026-10-19T08:39:57+00:00",
      "summary": "SonicWall ha rilasciato aggiornamenti di sicurezza per sanare due vulnerabilità con gravità \"alta\" che interessano Network Security Manager (NSM). Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto autenticato l'accesso ad…"
-    },
-    {
-     "title": "Aggiornamenti di sicurezza per prodotti MongoDB",
-     "link": "https://www.acn.gov.it/portale/w/aggiornamenti-di-sicurezza-per-prodotti-mongodb-2",
-     "date": "2026-10-19T08:17:42+00:00",
-     "summary": "MongoDB ha rilasciato aggiornamenti di sicurezza per sanare 5 nuove vulnerabilità, di cui 3 con gravità \"alta\", in MongoDB Server. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato, in determinate condizioni, di compromettere la…"
-    },
-    {
-     "title": "Aggiornamenti per prodotti Siemens",
-     "link": "https://www.acn.gov.it/portale/w/aggiornamenti-per-prodotti-siemens-29",
-     "date": "2026-10-19T07:46:17+00:00",
-     "summary": "Rilasciati aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” in Siemens Software Center, l'applicazione desktop ufficiale di Siemens (per Windows e Linux) che serve a scaricare, installare, attivare e gestire i prodotti software Digital Industries…"
     }
    ]
   },
@@ -934,7 +934,7 @@
    ]
   },
   "csirt-mt": {
-   "status": "stale",
+   "status": "ok",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
@@ -986,8 +986,7 @@
      "date": "2026-05-21T11:31:23+00:00",
      "summary": "The opportunity to download or share pornographic material is often the final stage of an illegal network that … Continued"
     }
-   ],
-   "error": "latest fetch failed"
+   ]
   },
   "ncsc-nl": {
    "status": "ok",
@@ -1612,6 +1611,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "MISP v3.0 Early Access: a first look at what's new",
+     "link": "https://www.misp-project.org/2026/10/16/misp.3.0-early-access.html/",
+     "date": "2026-10-16T00:00:00+00:00",
+     "summary": "MISP v3.0 is here in Early Access. It is the biggest change to the way you work in MISP in years: a complete new interface, a page for every value you hold, analyst profiles that decide what matters to you , and graphs you can pivot through, keep and share. The data model, the…"
+    },
+    {
      "title": "MISP Modules v3.0.12 Released - richer threat intelligence enrichment, improved interoperability with MISP objects, new enrichment capabilities, and increased reliability across existing modules.",
      "link": "https://www.misp-project.org/2026/10/14/misp-modules.3.0.12.released.html/",
      "date": "2026-10-14T00:00:00+00:00",
@@ -1652,12 +1657,6 @@
      "link": "https://www.misp-project.org/2026/08/11/cti-transmute-v1.5-released.html/",
      "date": "2026-08-11T00:00:00+00:00",
      "summary": "CTI-Transmute 1.5 released CTI-Transmute is an open-source service for converting threat intelligence between formats - MISP and STIX today, more to come - with a catalogue on top to store, share, comment on and evaluate the results. It wraps the misp-stix library behind a web…"
-    },
-    {
-     "title": "MISP 2.5.44: Hotfix release (pull mechanism) and Overmind theme update",
-     "link": "https://www.misp-project.org/2026/07/14/misp.2.5.44.released.html/",
-     "date": "2026-07-14T00:00:00+00:00",
-     "summary": "This is a hotfix release, primarily addressing a bug in the pull synchronisation mechanism that could cause failures when pulling events without any tags. It also ships a large batch of Bootstrap 5 views for the Overmind theme along with a couple of smaller fixes."
     }
    ]
   },
@@ -1832,6 +1831,24 @@
    "via": "discovered",
    "items": [
     {
+     "title": "[Control systems] GeoVision security advisory (AV26-1066)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-geovision-security-advisory-av26-1066",
+     "date": "2026-10-20T13:26:08+00:00",
+     "summary": ""
+    },
+    {
+     "title": "[Control systems] Advantech security advisory (AV26-1065)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-advantech-security-advisory-av26-1065",
+     "date": "2026-10-20T13:10:55+00:00",
+     "summary": ""
+    },
+    {
+     "title": "IBM security advisory (AV26-1064)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/ibm-security-advisory-av26-1064",
+     "date": "2026-10-20T13:01:07+00:00",
+     "summary": ""
+    },
+    {
      "title": "Siemens security advisory (AV26-1063)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/siemens-security-advisory-av26-1063",
      "date": "2026-10-19T20:37:35+00:00",
@@ -1859,24 +1876,6 @@
      "title": "Google security advisory (AV26-1060)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1060",
      "date": "2026-10-16T20:16:50+00:00",
-     "summary": ""
-    },
-    {
-     "title": "BMC Helix security advisory (AV26-1059)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/bmc-helix-security-advisory-av26-1059",
-     "date": "2026-10-16T18:45:43+00:00",
-     "summary": ""
-    },
-    {
-     "title": "BeyondTrust security advisory (AV26-1054) – Update 1",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/beyondtrust-security-advisory-av26-1054",
-     "date": "2026-10-16T18:27:37+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Progress security advisory (AV26-1058)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/progress-security-advisory-av26-1058",
-     "date": "2026-10-16T17:50:47+00:00",
      "summary": ""
     }
    ]
@@ -2122,6 +2121,12 @@
    "via": "page",
    "items": [
     {
+     "title": "关于中国境外自治域AS 402425恶意篡改部分DNS解析数...",
+     "link": "https://www.cert.org.cn/publish/main/11/2026/20261020214410947717866/20261020214410947717866_.html",
+     "date": null,
+     "summary": ""
+    },
+    {
      "title": "关于内置后门功能的恶意软件“荐片播放器”大规模传播的风险提示",
      "link": "https://www.cert.org.cn/publish/main/10/2026/20261009203110219274970/20261009203110219274970_.html",
      "date": null,
@@ -2160,12 +2165,6 @@
     {
      "title": "关于黑产团伙批量搭建高仿真钓鱼网站大规模传播银狐木马的风险提示",
      "link": "https://www.cert.org.cn/publish/main/10/2026/20260522113326926111046/20260522113326926111046_.html",
-     "date": null,
-     "summary": ""
-    },
-    {
-     "title": "关于“黑猫”团伙利用搜索引擎传播仿冒Notepad++下载远...",
-     "link": "https://www.cert.org.cn/publish/main/10/2025/20251230153606629708787/20251230153606629708787_.html",
      "date": null,
      "summary": ""
     }
