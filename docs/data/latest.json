@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T05:02:49+00:00",
+ "updated": "2026-10-21T12:04:10+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -191,6 +191,12 @@
    "via": "known",
    "items": [
     {
+     "title": "UPOZORENJE: Kritične ranjivosti u PHP-u – čeka se nadogradnja",
+     "link": "https://www.cert.hr/upozorenje-kriticne-ranjivosti-u-php-u-ceka-se-nadogradnja/?utm_source=rss&utm_medium=rss&utm_campaign=upozorenje-kriticne-ranjivosti-u-php-u-ceka-se-nadogradnja",
+     "date": "2026-10-21T10:00:11+00:00",
+     "summary": "PHP Security Team najavio je izvanrednu sigurnosnu zakrpu zakazanu za 21. listopad 2026. u 16:00 sati (14:00 UTC). Pozivaju sve PHP korisnike na hitnu primjenu zakrpi. Prije službene objave procurile su informacije o dvjema kritičnim ranjivostima u jezgri PHP-a koje napadaču…"
+    },
+    {
      "title": "Završio je European Cybersecurity Challenge 2026",
      "link": "https://www.cert.hr/zavrsio-je-european-cybersecurity-challenge-2026/?utm_source=rss&utm_medium=rss&utm_campaign=zavrsio-je-european-cybersecurity-challenge-2026",
      "date": "2026-10-19T12:33:08+00:00",
@@ -231,12 +237,6 @@
      "link": "https://www.cert.hr/google-je-izdao-zakrpe-za-230-ranjivosti-azurirajte-chrome-preglednik/?utm_source=rss&utm_medium=rss&utm_campaign=google-je-izdao-zakrpe-za-230-ranjivosti-azurirajte-chrome-preglednik",
      "date": "2026-09-10T13:02:35+00:00",
      "summary": "Google je objavio sigurnosno ažuriranje kojim se otklanja ukupno 230 ranjivosti, među kojima se nalazi i ranjivost nultog dana Chrome preglednika koja se aktivno iskorištava u napadima. Google je počeo distribuirati zakrpane verzije za Windows (153.0.8010.36), Mac…"
-    },
-    {
-     "title": "Upozorenj: kritična ranjivosti u MikroTik RouterOS-u. Preporučuje se hitna nadogradnja.",
-     "link": "https://www.cert.hr/upozorenj-kriticna-ranjivosti-u-mikrotik-routeros-u-preporucuje-se-hitna-nadogradnja/?utm_source=rss&utm_medium=rss&utm_campaign=upozorenj-kriticna-ranjivosti-u-mikrotik-routeros-u-preporucuje-se-hitna-nadogradnja",
-     "date": "2026-09-07T13:11:46+00:00",
-     "summary": "Poljski CERT (CERT Polska) identificirao je i koordinirao objavu šest ranjivosti u sustavu MikroTik RouterOS. Kombinacijom dviju od njih (CVE-2026-67276 i CVE-2026-86060), nazvanom “MikroTrick”, napadač može bez autentikacije preuzeti potpunu kontrolu nad uređajem ako je na…"
     }
    ]
   },
@@ -479,6 +479,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+     "date": "2026-10-21T00:00:00+00:00",
+     "summary": "Le 20 octobre 2026, PHP a publié une communication concernant deux vulnérabilités critiques. L'éditeur annonce la disponibilité des correctifs de sécurité pour le 21 octobre 2026 à 16h00 heure de Paris (14h00 UTC). Pour les versions de PHP 5.x, 6.x, 7.x, 8.0.x et 8.1.x , dont…"
+    },
+    {
      "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
      "date": "2026-10-20T00:00:00+00:00",
@@ -519,12 +525,6 @@
      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1337/",
      "date": "2026-10-19T00:00:00+00:00",
      "summary": "De multiples vulnérabilités ont été découvertes dans Juniper Networks Session Smart Router. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-     "title": "Multiples vulnérabilités dans Microsoft Edge (19 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
-     "date": "2026-10-19T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur."
     }
    ]
   },
@@ -534,52 +534,52 @@
    "via": "known",
    "items": [
     {
-     "title": "[NEU] [mittel] TYPO3 Extensions: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4053",
-     "date": "2026-10-20T11:40:51+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in TYPO3 Extension ausnutzen, um Dateien zu manipulieren, um Informationen offenzulegen, um einen SQL-Injection Angriff durchzuführen, um einen Cross-Site Scripting Angriff durchzuführen und um Sicherheitsvorkehrungen zu umgehen."
+     "title": "[UPDATE] [hoch] Golang Go: Schwachstelle ermöglicht Umgehen von Sicherheitsvorkehrungen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4049",
+     "date": "2026-10-21T11:50:52+00:00",
+     "summary": "Ein Angreifer kann eine Schwachstelle in Golang Go ausnutzen, um Sicherheitsvorkehrungen zu umgehen."
     },
     {
-     "title": "[UPDATE] [mittel] Red Hat Enterprise Linux (sequoia-openpgp, perl-DBI): Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3790",
-     "date": "2026-10-20T11:40:51+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Red Hat Enterprise Linux ausnutzen, um Sicherheitsvorkehrungen zu umgehen, Daten zu manipulieren und einen Denial-of-Service-Zustand auszulösen."
+     "title": "[UPDATE] [hoch] Vercel Next.js: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3973",
+     "date": "2026-10-21T11:50:52+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in Vercel Next.js ausnutzen, um beliebigen Programmcode auszuführen, und um einen Denial of Service Angriff durchzuführen."
     },
     {
-     "title": "[UPDATE] [hoch] Linux Kernel: Schwachstelle ermöglicht Privilegieneskalation",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3871",
-     "date": "2026-10-20T11:35:52+00:00",
-     "summary": "Ein Angreifer kann eine Schwachstelle im Linux Kernel ausnutzen, um erweiterte Rechte zu erlangen."
-    },
-    {
-     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4008",
-     "date": "2026-10-20T11:35:52+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um einen Denial of Service Angriff durchzuführen oder Root-Rechte zu erlangen."
+     "title": "[UPDATE] [mittel] sudo: Schwachstelle ermöglicht Codeausführung",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3551",
+     "date": "2026-10-21T11:50:52+00:00",
+     "summary": "Ein lokaler Angreifer kann eine Schwachstelle in sudo ausnutzen, um beliebigen Programmcode auszuführen."
     },
     {
      "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3579",
-     "date": "2026-10-20T11:30:51+00:00",
-     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen Denial of Service Zustand herbeizuführen oder nicht näher spezifizierten Angriff durchzuführen."
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2730",
+     "date": "2026-10-21T11:50:51+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen, darunter möglicherweise die Ausführung von beliebigem Code, die Ausweitung von Berechtigungen, die Offenlegung von Informationen, die Manipulation von…"
     },
     {
-     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3211",
-     "date": "2026-10-20T11:25:52+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Linux Kernel ausnutzen, um Speicherfehler und Kernel-Abstürze beziehungsweise Denial-of-Service-Zustände auszulösen, Speicher außerhalb vorgesehener Grenzen auszulesen sowie in einzelnen Fällen weitere…"
+     "title": "[NEU] [kritisch] PHP: Mehrere Schwachstellen ermöglichen nicht spezifizierten Angriff",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055",
+     "date": "2026-10-21T11:40:51+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in PHP ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen."
     },
     {
-     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321",
-     "date": "2026-10-20T11:25:52+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um Sicherheitsmaßnahmen zu umgehen, Daten oder den Systemzustand zu manipulieren, Denial-of-Service-Zustände herbeizuführen oder andere, nicht näher spezifizierte Angriffe durchzuführen."
+     "title": "[NEU] [mittel] Oracle TimesTen In-Memory Database: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4093",
+     "date": "2026-10-21T11:31:13+00:00",
+     "summary": "Ein entfernter, authentisierter Angreifer kann mehrere Schwachstellen in Oracle TimesTen In-Memory Database ausnutzen, um die Vertraulichkeit, Integrität und Verfügbarkeit zu gefährden."
     },
     {
-     "title": "[UPDATE] [mittel] Linux Kernel: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3743",
-     "date": "2026-10-20T11:20:52+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen, möglicherweise einen Denial-of-Service-Angriff auszulösen, Daten zu manipulieren oder offenzulegen oder Sicherheitsmaßnahmen zu umgehen."
+     "title": "[NEU] [mittel] Oracle Commerce: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4092",
+     "date": "2026-10-21T11:30:53+00:00",
+     "summary": "Ein entfernter, anonymer oder authentisierter Angreifer kann mehrere Schwachstellen in Oracle Commerce ausnutzen, um die Vertraulichkeit und Integrität zu gefährden."
+    },
+    {
+     "title": "[NEU] [hoch] Oracle Systems: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4091",
+     "date": "2026-10-21T11:30:53+00:00",
+     "summary": "Ein entfernter, anonymer oder authentisierter Angreifer kann mehrere Schwachstellen in Oracle Systems ausnutzen, um die Vertraulichkeit, Integrität und Verfügbarkeit zu gefährden."
     }
    ]
   },
@@ -588,6 +588,12 @@
    "feed": "https://cyber.gov.gr/feed/",
    "via": "known",
    "items": [
+    {
+     "title": "Πέρα από το IT η κυβερνοασφάλεια ως στρατηγικός καταλύτης των ελληνικών επιχειρήσεων – Άρθρο του Υποδιοικητή ΕΑΚ στο περιοδικό Tech Leaders",
+     "link": "https://cyber.gov.gr/pera-apo-to-it-i-kyvernoasfaleia-os-stratigikos-katalytis-ton-ellinikon-epicheiriseon-arthro-toy-ypodioikiti-eak-sto-periodiko-tech-leaders/",
+     "date": "2026-10-21T09:44:10+00:00",
+     "summary": "Την πολυεπίπεδη διάσταση της κυβερνοασφάλειας όχι απλά ως ένα τεχνικό ζήτημα ή ως υποχρέωση συμμόρφωσης, αλλά ως στρατηγικό παράγοντα ανάπτυξης και ψηφιακής ανθεκτικότητας των επιχειρήσεων, αναδεικνύει ο Υποδιοικητής της ΕΑΚ… Το άρθρο Πέρα από το IT η κυβερνοασφάλεια ως…"
+    },
     {
      "title": "Φρένο στις συνδέσεις των πάντων στο διαδίκτυο, βάζει ο Διοικητής της ΕΑΚ Μ. Μπλέτσας μιλώντας στο Cyber Security Forum 2026",
      "link": "https://cyber.gov.gr/freno-stis-syndeseis-ton-panton-sto-diadiktyo-vazei-o-dioikitis-tis-eak-m-mpletsas-milontas-sto-cyber-security-forum-2026/",
@@ -629,12 +635,6 @@
      "link": "https://cyber.gov.gr/prokiryxi-anoichtoy-ilektronikoy-diagonismoy-ano-ton-orion-gia-tin-parochi-exeligmenon-ypiresion-kyvernoasfaleias/",
      "date": "2026-09-30T07:49:48+00:00",
      "summary": "Η Εθνική Αρχή Κυβερνοασφάλειας προκηρύσσει ανοικτό ηλεκτρονικό διαγωνισμό άνω των ορίων, μέσω του Εθνικού Συστήματος Ηλεκτρονικών Δημοσίων Συμβάσεων (ΕΣΗΔΗΣ), για την ανάδειξη αναδόχου για την παροχή εξελιγμένων υπηρεσιών μηχανισμού προστασίας… Το άρθρο Προκήρυξη ανοιχτού…"
-    },
-    {
-     "title": "Πρόσκληση σε διαδικτυακά μαθήματα Κυβερνοασφάλειας δωρεάν και πιστοποιούμενα μέσω του ευρωπαϊκού έργου Cadmus",
-     "link": "https://cyber.gov.gr/prosklisi-se-diadiktyaka-mathimata-kyvernoasfaleias-dorean-kai-pistopoioymena-meso-toy-eyropaikoy-ergoy-cadmus/",
-     "date": "2026-09-29T11:18:14+00:00",
-     "summary": "Σας προσκαλούμε να παρακολουθήσετε, δωρεάν, τα πιστοποιούμενα διαδικτυακά μαθήματα Κυβερνοασφάλειας που προσφέρονται, μέσω της πλατφόρμας του Ευρωπαϊκού έργου CADMUS . To έργο συντονίζει η Εθνική Αρχή Κυβερνοασφάλειας (ΕΑΚ), σε συνεργασία με… Το άρθρο Πρόσκληση σε διαδικτυακά…"
     }
    ]
   },
@@ -643,6 +643,12 @@
    "feed": "https://nki.gov.hu/figyelmeztetesek/riasztas/feed/",
    "via": "known",
    "items": [
+    {
+     "title": "Riasztás a PHP futtatókörnyezet kritikus sérülékenységeiről",
+     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-php-futtatokornyezet-kritikus-serulekenysegeirol/",
+     "date": "2026-10-21T07:09:45+00:00",
+     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet (NBSZ NKI) riasztást ad ki a PHP futtatókörnyezetet érintő két kritikus sérülékenységgel kapcsolatban, tekintettel azok súlyosságára, várható kihasználására, valamint az érintett technológia széles körű…"
+    },
     {
      "title": "Riasztás az Ivanti Connect Secure és a Microsoft Windows Shell sérülékenységeiről",
      "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-az-ivanti-connect-secure-es-a-microsoft-windows-shell-serulekenysegeirol/",
@@ -684,12 +690,6 @@
      "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-check-point-security-management-server-t-erinto-serulekenysegrol/",
      "date": "2026-09-23T08:16:19+00:00",
      "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a Check Point Security Management Servert érintő CVE-2026-93616 azonosítójú, aktívan kihasznált kritikus sérülékenység kapcsán. A CVSS 9,8-as, előzetes hitelesítés nélkül kihasználható…"
-    },
-    {
-     "title": "Riasztás Cisco szoftvereket érintő sérülékenységekről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-cisco-szoftvereket-erinto-serulekenysegekrol/",
-     "date": "2026-09-17T11:27:57+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a Cisco Identity Services Engine (ISE) és az ISE Passive Identity Connector (ISE-PIC) termékeket érintő, CVE-2026-76460 azonosítón nyomon követett kritikus sérülékenység kapcsán. A sebezhetőség…"
     }
    ]
   },
@@ -754,6 +754,30 @@
    "via": "known",
    "items": [
     {
+     "title": "Risolte vulnerabilità in prodotti SolarWinds",
+     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-prodotti-solarwinds",
+     "date": "2026-10-21T10:44:13+00:00",
+     "summary": "Aggiornamenti di sicurezza risolvono 4 vulnerabilità, di cui 1 con gravità \"alta\", presenti in SolarWinds Observability Self-Hosted, piattaforma per il monitoraggio di reti, server, applicazioni e ambienti cloud ibridi. Tale vulnerabilità, qualora sfruttata, potrebbe consentire…"
+    },
+    {
+     "title": "Risolte vulnerabilità in Apache Tomcat",
+     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-apache-tomcat",
+     "date": "2026-10-21T08:03:32+00:00",
+     "summary": "Rilasciati aggiornamenti di sicurezza per sanare alcune vulnerabilità, di cui 3 con gravità “critica”, in Apache Tomcat, noto server web open source sviluppato da Apache Software Foundation. Tali vulnerabilità potrebbero consentire a un attaccante remoto non autenticato di…"
+    },
+    {
+     "title": "Risolte vulnerabilità in Google Chrome",
+     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-google-chrome-81",
+     "date": "2026-10-21T07:53:46+00:00",
+     "summary": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 353 nuove vulnerabilità di sicurezza, di cui 6 con gravità “critica” e 61 con gravità “alta”."
+    },
+    {
+     "title": "Critical Patch Update di Oracle",
+     "link": "https://www.acn.gov.it/portale/w/critical-patch-update-di-oracle-12",
+     "date": "2026-10-21T07:24:32+00:00",
+     "summary": "Oracle ha rilasciato il Critical Patch Update di ottobre che mira a correggere numerose vulnerabilità su più prodotti, di cui 64 con gravità “critica” e 383 con gravità “alta”."
+    },
+    {
      "title": "Risolte vulnerabilità in Stormshield Network Security",
      "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-stormshield-network-security",
      "date": "2026-10-20T13:42:13+00:00",
@@ -776,30 +800,6 @@
      "link": "https://www.acn.gov.it/portale/w/vulnerabilita-in-prodotti-asus-3",
      "date": "2026-10-20T09:45:26+00:00",
      "summary": "ASUS ha rilasciato aggiornamenti di sicurezza per sanare 3 vulnerabilità, di cui 2 con gravità \"alta\", in Armoury Crate e in ASUS Router Firmware."
-    },
-    {
-     "title": "Risolta vulnerabilità in Signal RingRTC",
-     "link": "https://www.acn.gov.it/portale/w/risolta-vulnerabilita-in-signal-ringrtc",
-     "date": "2026-10-20T08:17:57+00:00",
-     "summary": "Signal ha rilasciato aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “critica” in RingRTC, libreria middleware per la gestione delle chiamate audio e video."
-    },
-    {
-     "title": "Risolta vulnerabilità in Roundcube Webmail",
-     "link": "https://www.acn.gov.it/portale/w/risolta-vulnerabilita-in-roundcube-webmail",
-     "date": "2026-10-20T07:03:33+00:00",
-     "summary": "Rilasciati aggiornamenti di sicurezza per risolvere una vulnerabilità con gravità “alta” in Roundcube Webmail, noto gestore di posta elettronica open source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un attaccante remoto autenticato di eseguire comandi IMAP…"
-    },
-    {
-     "title": "Risolte vulnerabilità in Craft CMS",
-     "link": "https://www.acn.gov.it/portale/w/risolte-vulnerabilita-in-craft-cms-2",
-     "date": "2026-10-20T06:53:45+00:00",
-     "summary": "Aggiornamenti di sicurezza sanano alcune vulnerabilità, di cui una con gravità “critica” e 7 con gravità “alta”, in Craft CMS, noto strumento per la gestione di siti web e-commerce. Tali vulnerabilità potrebbero consentire a un attaccante remoto, in alcuni casi non autenticato,…"
-    },
-    {
-     "title": "Sanate vulnerabilità in prodotti SonicWall",
-     "link": "https://www.acn.gov.it/portale/w/sanate-vulnerabilita-in-prodotti-sonicwall",
-     "date": "2026-10-19T08:39:57+00:00",
-     "summary": "SonicWall ha rilasciato aggiornamenti di sicurezza per sanare due vulnerabilità con gravità \"alta\" che interessano Network Security Manager (NSM). Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto autenticato l'accesso ad…"
     }
    ]
   },
@@ -808,6 +808,12 @@
    "feed": "https://cert.lv/lv/feed/atom/viss",
    "via": "discovered",
    "items": [
+    {
+     "title": "Kritiskas ievainojamības PHP programmatūrā",
+     "link": "https://cert.lv/lv/2026/10/kritiskas-ievainojamibas-php-programmatura",
+     "date": "2026-10-21T09:14:06+00:00",
+     "summary": "Šodien, 21. oktobrī, pulksten 17:00 pēc Rīgas laika “PHP” drošības komanda plāno paziņot par kritiskām ievainojamībām PHP programmatūrā - CVE-2026-109618 un CVE-2026-109619 (CVSS vērtējums 9.2). Nepieciešams nekavējoties uzstādīt atjauninājumus, tiklīdz tie ir pieejami!"
+    },
     {
      "title": "Krāpnieciskas SMS par jaunu WhatsApp numuru",
      "link": "https://cert.lv/lv/2026/10/krapnieciskas-sms-par-jaunu-whatsapp-numuru",
@@ -849,12 +855,6 @@
      "link": "https://cert.lv/lv/2026/10/ievainojamibas-vmware-programmatura",
      "date": "2026-10-07T07:47:41+00:00",
      "summary": "Atklātas divas (kritiska un augsta riska) ievainojamības VMware programmatūrā (CVE-2026-59346, CVE-2026-59347), kas ļauj uzbrucējam veikt patvaļīgu koda izpildi uz iekārtas, kura uztur VMware virtuālo mašīnu."
-    },
-    {
-     "title": "Kritiska ievanojamība Atlassian produktos",
-     "link": "https://cert.lv/lv/2026/10/kritiska-ievanojamiba-atlassian-produktos",
-     "date": "2026-10-06T10:29:57+00:00",
-     "summary": "Programmatūras izstrādātājs Atlassian ir publicējis brīdinājumu par kritisku ievainojamību CVE-2026-21589 (CVSS 9.3), kas ietekmē Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data…"
     }
    ]
   },
@@ -995,6 +995,24 @@
    "via": "known",
    "items": [
     {
+     "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
+     "date": "2026-10-21T09:35:18+00:00",
+     "summary": "Oracle heeft kwetsbaarheden verholpen in diverse producten, waaronder Oracle MySQL Server, MySQL Cluster, MySQL Enterprise Backup, MySQL Connectors (waaronder Connector/ODBC) en MySQL Router. De kwetsbaarheden in Oracle MySQL betreffen diverse componenten, waaronder MySQL…"
+    },
+    {
+     "title": "NCSC-2026-0440 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Enterprise Manager",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0440",
+     "date": "2026-10-21T09:34:08+00:00",
+     "summary": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Enterprise Manager, waaronder de Base Platform, Data Guard Management, Siebel en Virtualization-componenten. De kwetsbaarheden betreffen versies 13.5 en 24.1. De kwetsbaarheden in Oracle Enterprise Manager kunnen leiden…"
+    },
+    {
+     "title": "NCSC-2026-0439 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0439",
+     "date": "2026-10-21T09:04:50+00:00",
+     "summary": "Oracle heeft nieuwe kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise. De kwetsbaarheden in Oracle PeopleSoft Enterprise betreffen verschillende beveiligingsrisico's, waaronder ongeautoriseerde toegang tot gegevens, ongeautoriseerde wijzigingen van gegevens en verstoring…"
+    },
+    {
      "title": "NCSC-2026-0438 [1.00] [M/H] Kwetsbaarheden verholpen in Drupal Core en modules door Drupal",
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0438",
      "date": "2026-10-19T08:08:49+00:00",
@@ -1023,24 +1041,6 @@
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0434",
      "date": "2026-10-16T06:28:22+00:00",
      "summary": "Fortinet heeft kwetsbaarheden verholpen in FortiSIEM versie 7.5.0. De eerste kwetsbaarheid betreft een path traversal probleem waarbij het systeem onvoldoende beperkingen oplegt aan padnamen naar beperkte directories. Hierdoor kan een niet-geauthenticeerde aanvaller speciaal…"
-    },
-    {
-     "title": "NCSC-2026-0433 [1.00] [M/H] Kwetsbaarheden verholpen in IBM Guardium Data Protection",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0433",
-     "date": "2026-10-16T06:24:12+00:00",
-     "summary": "IBM heeft meerdere kwetsbaarheden verholpen in IBM Guardium Data Protection versies 12.0, 12.1 en 12.2. De kwetsbaarheden betreffen onder andere remote code execution via path traversal, meerdere SQL-injectieproblemen, en diverse buffer overflow kwetsbaarheden (heap-based,…"
-    },
-    {
-     "title": "NCSC-2026-0432 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Brocade Fabric OS",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0432",
-     "date": "2026-10-16T06:23:02+00:00",
-     "summary": "HPE heeft meerdere beveiligingsproblemen verholpen in Brocade Fabric OS, specifiek in versies vóór 10.0.1 en in de 9.2.x en 10.0.x release lijnen. De kwetsbaarheden omvatten onder andere authenticatieomzeiling, denial of service, informatielekken, privilege-escalatie, buffer…"
-    },
-    {
-     "title": "NCSC-2026-0431 [1.00] [M/H] Kwetsbaarheden verholpen in IBM DataPower Gateway en onderliggende componenten",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0431",
-     "date": "2026-10-16T06:16:13+00:00",
-     "summary": "IBM heeft meerdere beveiligingsproblemen opgelost in DataPower Gateway versies 10.5 tot 11.0 en een veelvoud aan onderliggende subcomponenten. De kwetsbaarheden betreffen een breed scala aan problemen zoals use-after-free bugs, race conditions, buffer overflows, null pointer…"
     }
    ]
   },
@@ -1122,6 +1122,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Kritické zraniteľnosti v PHP",
+     "link": "https://www.sk-cert.sk/sk/17345-2/",
+     "date": null,
+     "summary": "Národné centrum kybernetickej bezpečnosti SK-CERT varuje pred dvoma kritickými zraniteľnosťami v PHP, identifikovanými ako CVE-2026-109618 a CVE-2026-109619. Podľa aktuálne dostupných informácií môže úspešné zneužitie umožniť vzdialenému neautentifikovanému útočníkovi vykonať…"
+    },
+    {
      "title": "Podvodníci pokračujú v úspešnej WhatsApp kampani imitujúcej súťaž",
      "link": "https://www.sk-cert.sk/sk/podvodnici-pokracuju-v-uspesnej-whatsapp-kampani-imitujucej-sutaz/",
      "date": null,
@@ -1162,12 +1168,6 @@
      "link": "https://www.sk-cert.sk/sk/operation-endgame-takmer-400-obeti-na-slovensku-infikovanych-malverom-stealc/",
      "date": null,
      "summary": "Národné centrum kybernetickej bezpečnosti (NCKB) NBÚ v uplynulých dňoch identifikovalo a následne hromadne varovalo niekoľko stoviek obyvateľov Slovenska, ktorých zariadenia boli kompromitované globálne rozšíreným malvérom StealC. Europol s partnermi 24. júna 2026 v rámci…"
-    },
-    {
-     "title": "WEBINÁR: Praktické rady k používaniu JISKB (Jednotný informačný systém kybernetickej bezpečnosti)",
-     "link": "https://www.sk-cert.sk/sk/webinar-prakticke-rady-k-pouzivaniu-jiskb-jednotny-informacny-system-kybernetickej-bezpecnosti/",
-     "date": null,
-     "summary": "V súvislosti so zavádzaním požiadaviek projektu NIS2 sme pre vás pripravili dva bezplatné webináre zamerané na praktické používanie JISKB – Jednotného informačného systému kybernetickej bezpečnosti. Počas 90-minútového online stretnutia získate prehľad o práci so systémom a…"
     }
    ]
   },
@@ -1176,6 +1176,12 @@
    "feed": "https://www.cert.si/feed/",
    "via": "known",
    "items": [
+    {
+     "title": "SI-CERT 2026-07 / Kritične ranljivosti v PHP",
+     "link": "https://www.cert.si/si-cert-2026-07/",
+     "date": "2026-10-21T07:10:31+00:00",
+     "summary": "Fundacija PHP za 21.10.2026 pripravlja izdajo popravkov za 2 kritični ranljivosti, ki omogočata oddaljeno neavtenticirano izvajanje poljuben kode. PHP je skriptni programski jezik,. ki pogoanja približno 70% vseh spletnih strani. The post SI-CERT 2026-07 / Kritične ranljivosti…"
+    },
     {
      "title": "Zloraba identitete podjetja na spletu: Kako ponudnikom prijaviti lažno stran ali zavajajočo domeno?",
      "link": "https://www.cert.si/zloraba-identitete-podjetja-na-spletu/",
@@ -1217,17 +1223,11 @@
      "link": "https://www.cert.si/si-cert-2026-05/",
      "date": "2026-09-06T19:15:09+00:00",
      "summary": "Veriga kritičnih ranljivosti v RouterOS omogoča popolno kompromitacijo MikroTik naprav, ki imajo dostopno SSH storitev. Ranljivosti se že izkorišča v napadih, zato priporočamo takojšnjo namestitev popravkov. The post SI-CERT 2026-05 / Kritična ranljivost v MikroTik RouterOS –…"
-    },
-    {
-     "title": "SI-CERT 2026-04 / Kritična ranljivost v WordPress jedru – WP2Shell",
-     "link": "https://www.cert.si/si-cert-2026-04/",
-     "date": "2026-07-21T09:01:13+00:00",
-     "summary": "Kritična veriga ranljivosti CVE-2026-63030 in CVE-2026-60137 v jedru sistema WordPress lahko napadalcu brez prijave omogoči popoln prevzem spletnega mesta. The post SI-CERT 2026-04 / Kritična ranljivost v WordPress jedru – WP2Shell appeared first on SI CERT ."
     }
    ]
   },
   "incibe-cert": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "via": "known",
    "items": [
@@ -1279,7 +1279,8 @@
      "date": "2026-10-16T07:25:00+00:00",
      "summary": "Server-Side Request Forgery en la exportación a PDF de Wegow Vie, 16/10/2026 - 09:25 Aviso Recursos Afectados Funcionalidad de exportación a PDF de gráficos de ventas de entradas del portal backoffice.wegow.com. Descripción INCIBE ha coordinado la publicación de una…"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "ccn-cert": {
    "status": "no-feed",
@@ -1357,56 +1358,56 @@
   },
   "cert-eu": {
    "status": "ok",
-   "feed": "https://cert.europa.eu/publications/security-advisories-rss",
+   "feed": "https://cert.europa.eu/publications/threat-intelligence-rss",
    "via": "known",
    "items": [
     {
-     "title": "2026-018: Critical Vulnerabilities in PHP",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-018/",
-     "date": "2026-10-20T22:33:27+00:00",
-     "summary": "On 20 October 2026, the PHP foundation announced an upcoming security release addressing two critical vulnerabilities in PHP that could lead to remote code execution, according to other leaks. At this time, no technical details have been made public. CERT-EU advises…"
+     "title": "Cyber Brief 26-10 - September 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-10/",
+     "date": "2026-10-02T17:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-017/",
-     "date": "2026-10-15T11:38:20+00:00",
-     "summary": "On 14 October 2026, Cisco published a security advisory addressing a critical vulnerability affecting the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. This vulnerability could allow an unauthenticated, remote attacker to write arbitrary files and…"
+     "title": "Cyber Brief 26-09 - August 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-09/",
+     "date": "2026-09-03T14:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-016/",
-     "date": "2026-10-12T14:57:02+00:00",
-     "summary": "On 12 October 2026, GitLab released versions 19.4.2, 19.3.4 and 19.2.8 of GitLab Community Edition (CE) and Enterprise Edition (EE), fixing 24 security issues among which a critical vulnerability that could allow an unauthenticated attacker to execute arbitrary code on the…"
+     "title": "Cyber Brief 26-08 - July 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-08/",
+     "date": "2026-08-03T17:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-015/",
-     "date": "2026-10-07T09:52:48+00:00",
-     "summary": "On 5 October 2026, Atlassian published a security advisory addressing a critical arbitrary file access vulnerability. It affects Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center,…"
+     "title": "Cyber Brief 26-07 - June 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-07/",
+     "date": "2026-07-01T16:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-014/",
-     "date": "2026-09-27T19:40:52+00:00",
-     "summary": "On 27 September 2026, Citrix published a security bulletin addressing 8 vulnerabilities affecting customer-managed Citrix NetScaler ADC and Citrix NetScaler Gateway, among which 2 critical unauthenticated Remote Code Execution (RCE) vulnerabilities. Citrix has confirmed active…"
+     "title": "Cyber Brief 26-06 - May 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-06/",
+     "date": "2026-06-02T18:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-013/",
-     "date": "2026-09-22T18:52:36+00:00",
-     "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible."
+     "title": "Cyber Brief 26-05 - April 2026",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-05/",
+     "date": "2026-05-04T17:00:00+00:00",
+     "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any…"
     },
     {
-     "title": "2026-012: Critical Vulnerabilities in Check Point Products",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-012/",
-     "date": "2026-09-10T10:20:06+00:00",
-     "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both…"
+     "title": "Threat Landscape Report 2025 - A Year In Review",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/tlr2025/",
+     "date": "2026-04-08T18:00:00+00:00",
+     "summary": "CERT-EU Cyber Threat Landscape Report for 2025 - Year Review"
     },
     {
-     "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
-     "link": "https://cert.europa.eu/publications/security-advisories/2026-011/",
-     "date": "2026-09-09T15:07:59+00:00",
-     "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended…"
+     "title": "Cyber Threat Intelligence Framework",
+     "link": "https://cert.europa.eu/publications/threat-intelligence/cyber-threat-intelligence-framework/",
+     "date": "2026-04-08T18:00:00+00:00",
+     "summary": "Cyber Threat Intelligence Framework"
     }
    ]
   },
@@ -1667,22 +1668,28 @@
    "via": "known",
    "items": [
     {
+     "title": "Critical security issue affecting PHP",
+     "link": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+     "date": "2026-10-21T12:00:00+00:00",
+     "summary": "The NCSC is encouraging UK organisations to prepare for immediate updating of systems using PHP."
+    },
+    {
      "title": "Introducing a new AI chapter in the NCSC research problem book",
      "link": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
      "date": "2026-10-20T12:00:00+00:00",
      "summary": "A revolution is underway at the intersection of AI and cyber security."
     },
     {
-     "title": "Using TLS to protect data",
-     "link": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
-     "date": "2026-10-15T12:00:00+00:00",
-     "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions."
-    },
-    {
      "title": "Post-quantum updates to our TLS guidance",
      "link": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
      "date": "2026-10-15T12:00:00+00:00",
      "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate."
+    },
+    {
+     "title": "Using TLS to protect data",
+     "link": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+     "date": "2026-10-15T12:00:00+00:00",
+     "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions."
     },
     {
      "title": "Help the NCSC understand how organisations approach external attack surface risk",
@@ -1707,12 +1714,6 @@
      "link": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
      "date": "2026-09-28T12:00:00+00:00",
      "summary": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited."
-    },
-    {
-     "title": "One does not simply defend agentically",
-     "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
-     "date": "2026-09-21T12:00:00+00:00",
-     "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence."
     }
    ]
   },
@@ -1997,6 +1998,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Ahsay 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad881c8b5290478048f3769",
+     "date": "2026-10-21T09:11:36+00:00",
+     "summary": "□ 개요 o Ahsay社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o AhsayCBS에서 발생하는 Improper Authentication 취약점(CVE-2026-105133) \\[1\\]\\[2\\] o AhsayCBS에서 발생하는 OS Command Injection 취약점(CVE-2026-105134) \\[1\\]\\[3\\] □ 영향을 받는 제품 및 해결 방안 |…"
+    },
+    {
      "title": "F5 제품 보안 업데이트 권고",
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad729e7b5290478048f2c25",
      "date": "2026-10-20T08:44:23+00:00",
@@ -2037,12 +2044,6 @@
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad17aa3b5290478048effe0",
      "date": "2026-10-16T01:15:15+00:00",
      "summary": "□ 개요 o Palo Alto Networks社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o PAN-OS에서 발생하는 Code Injection 취약점(CVE-2026-0322) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:|:---:| | CVE-2026-0322 |…"
-    },
-    {
-     "title": "美 CISA 발표 주요 Exploit 정보공유(Update. 2026-10-16)",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad0ea706af80d7109178051",
-     "date": "2026-10-15T15:00:00+00:00",
-     "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2025-61624 | Fortinet | Fortinet Multiple Products Path Traversal Vulnerability | FortiOS,…"
     }
    ]
   },
@@ -2051,6 +2052,12 @@
    "feed": "https://www.csa.gov.sg/alerts-and-advisories/rss.xml",
    "via": "discovered",
    "items": [
+    {
+     "title": "Critical Vulnerabilities in F5 NGINX Products",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-150",
+     "date": "2026-10-20T16:00:00+00:00",
+     "summary": "Attackers can exploit critical vulnerabilities in F5 NGINX products to perform remote code execution or cause denial-of-service (DoS) conditions. Patch immediately."
+    },
     {
      "title": "Security Bulletin 21 Oct 2026 [PDF, 2MB]",
      "link": "https://isomer-user-content.by.gov.sg/36/5f185712-4afa-4776-b559-89d09e2663c0/21_Oct_2026.pdf",
@@ -2092,12 +2099,6 @@
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-145",
      "date": "2026-10-15T16:00:00+00:00",
      "summary": "Attackers can exploit critical vulnerabilities in Splunk Enterprise to escalate privileges and execute arbitrary code. Patch immediately."
-    },
-    {
-     "title": "Active Exploitation of Vulnerability in Palo Alto Networks Products",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-143",
-     "date": "2026-10-15T16:00:00+00:00",
-     "summary": "Attackers are exploiting a high-severity vulnerability in Palo Alto Networks PAN-OS to execute arbitrary code with root privileges. Patch immediately."
     }
    ]
   },
@@ -2175,7 +2176,6 @@
    "status": "no-feed",
    "blocked": false,
    "tried": [
-    "https://www.twcert.org.tw/ (discovery: URLError)",
     "https://www.twcert.org.tw/feed/",
     "https://www.twcert.org.tw/rss.xml",
     "https://www.twcert.org.tw/rss",

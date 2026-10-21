@@ -26,7 +26,7 @@
   <outline type="rss" text="SI – SI-CERT" xmlUrl="https://www.cert.si/feed/" htmlUrl="https://www.cert.si/"/>
   <outline type="rss" text="ES – INCIBE-CERT" xmlUrl="https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed" htmlUrl="https://www.incibe.es/incibe-cert"/>
   <outline type="rss" text="SE – CERT-SE" xmlUrl="https://www.cert.se/feed.rss" htmlUrl="https://www.cert.se/"/>
-  <outline type="rss" text="EU – CERT-EU" xmlUrl="https://cert.europa.eu/publications/security-advisories-rss" htmlUrl="https://cert.europa.eu/"/>
+  <outline type="rss" text="EU – CERT-EU" xmlUrl="https://cert.europa.eu/publications/threat-intelligence-rss" htmlUrl="https://cert.europa.eu/"/>
   <outline type="rss" text="EU – ENISA EUVD" xmlUrl="https://euvdservices.enisa.europa.eu/api/exploitedvulnerabilities" htmlUrl="https://euvd.enisa.europa.eu/"/>
   <outline type="rss" text="INT – Shadowserver" xmlUrl="https://www.shadowserver.org/topics/shadowserver/feed/" htmlUrl="https://www.shadowserver.org/"/>
   <outline type="rss" text="INT – abuse.ch" xmlUrl="https://abuse.ch/rss/" htmlUrl="https://abuse.ch/"/>
