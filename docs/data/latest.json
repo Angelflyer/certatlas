@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T17:24:21+00:00",
+ "updated": "2026-10-21T21:52:39+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
-   "feed": "https://cert.pl/en/atom.xml",
+   "feed": "https://cert.pl/en/rss.xml",
    "via": "known",
    "items": [
     {
@@ -584,7 +584,7 @@
    ]
   },
   "el-csirt": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://cyber.gov.gr/feed/",
    "via": "known",
    "items": [
@@ -636,7 +636,8 @@
      "date": "2026-09-30T07:49:48+00:00",
      "summary": "Η Εθνική Αρχή Κυβερνοασφάλειας προκηρύσσει ανοικτό ηλεκτρονικό διαγωνισμό άνω των ορίων, μέσω του Εθνικού Συστήματος Ηλεκτρονικών Δημοσίων Συμβάσεων (ΕΣΗΔΗΣ), για την ανάδειξη αναδόχου για την παροχή εξελιγμένων υπηρεσιών μηχανισμού προστασίας… Το άρθρο Προκήρυξη ανοιχτού…"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "nki-hu": {
    "status": "ok",
@@ -809,16 +810,22 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Node.js atklātas vairākas augstas bīstamības ievainojamības",
+     "link": "https://cert.lv/lv/2026/10/node-js-atklatas-vairakas-augstas-bistamibas-ievainojamibas",
+     "date": "2026-10-21T18:50:59+00:00",
+     "summary": "Node.js izstrādātāji ir publicējuši drošības atjauninājumus, kuros novērstas vairākas ievainojamības JavaScript izpildvidē Node.js. Ievainojamības skar Node.js 22.x, 24.x un 26.x versiju atzarus."
+    },
+    {
      "title": "Saistībā ar globāli atklātām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
      "link": "https://cert.lv/lv/2026/10/saistiba-ar-globali-atklatam-php-ievainojamibam-latvija-ievies-preventivus-pasakumus",
-     "date": "2026-10-21T15:25:55+00:00",
-     "summary": "Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no ārvalstīm. Šie preventīvie drošības pasākumi tiks…"
+     "date": "2026-10-21T15:25:57+00:00",
+     "summary": "[Informācija papildināta 21.10.2026 plkst. 23:00] Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no…"
     },
     {
      "title": "Kritiskas ievainojamības PHP programmatūrā",
      "link": "https://cert.lv/lv/2026/10/kritiskas-ievainojamibas-php-programmatura",
-     "date": "2026-10-21T09:14:06+00:00",
-     "summary": "Šodien, 21. oktobrī, pulksten 17:00 pēc Rīgas laika “PHP” drošības komanda plāno paziņot par kritiskām ievainojamībām PHP programmatūrā - CVE-2026-109618 un CVE-2026-109619 (CVSS vērtējums 9.2). Nepieciešams nekavējoties uzstādīt atjauninājumus, tiklīdz tie ir pieejami!"
+     "date": "2026-10-21T09:14:07+00:00",
+     "summary": "​[Informācija papildināta] Šodien, 21. oktobrī, pulksten 17:00 pēc Rīgas laika “PHP” drošības komanda plāno paziņot par kritiskām ievainojamībām PHP programmatūrā - CVE-2026-109618 un CVE-2026-109619 (CVSS vērtējums 9.2). Nepieciešams nekavējoties uzstādīt atjauninājumus,…"
     },
     {
      "title": "Krāpnieciskas SMS par jaunu WhatsApp numuru",
@@ -849,12 +856,6 @@
      "link": "https://cert.lv/lv/2026/10/kritiska-drosibas-ievainojamiba-prestashop-moduli",
      "date": "2026-10-08T06:20:19+00:00",
      "summary": "Vienā no satura vadības sistēmas PrestaShop moduļiem ir atklāta kritiska līmeņa ievainojamība (CVE-2026-54159), kas ļauj neautentificētam uzbrucējam patvaļīgi izpildīt PHP kodu."
-    },
-    {
-     "title": "Kiberlaikapstākļi 2026 | SEPTEMBRIS",
-     "link": "https://cert.lv/lv/2026/10/kiberlaikapstakli-2026-septembris",
-     "date": "2026-10-07T11:52:42+00:00",
-     "summary": "Pieejami kiberlaikapstākļi par 2026. gada septembri. Kiberlaikapstākļi ir CERT.LV speciālistu apkopots pārskats īsā un pārskatāmā formā par Latvijas kibertelpā svarīgākajiem notikumiem pagājušajā mēnesī."
     }
    ]
   },
@@ -1826,60 +1827,59 @@
    ]
   },
   "cccs-ca": {
-   "status": "stale",
+   "status": "ok",
    "feed": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
    "via": "discovered",
    "items": [
+    {
+     "title": "Cisco security advisory (AV26-1073)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1073",
+     "date": "2026-10-21T19:09:38+00:00",
+     "summary": ""
+    },
+    {
+     "title": "ISC BIND security advisory (AV26-1072)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/isc-bind-security-advisory-av26-1072",
+     "date": "2026-10-21T18:48:12+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Oracle Corporation security advisory (AV26-1071)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/oracle-corporation-security-advisory-av26-1071",
+     "date": "2026-10-21T18:28:37+00:00",
+     "summary": ""
+    },
+    {
+     "title": "AL26-026 - Critical vulnerabilities impacting PHP - CVE-2026-109618 and CVE-2026-109619",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619",
+     "date": "2026-10-21T17:30:09+00:00",
+     "summary": ""
+    },
+    {
+     "title": "PHP security advisory (AV26-1070)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/php-security-advisory-av26-1070",
+     "date": "2026-10-21T13:27:35+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Google Chrome security advisory (AV26-1069)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/google-chrome-security-advisory-av26-1069",
+     "date": "2026-10-21T13:19:21+00:00",
+     "summary": ""
+    },
+    {
+     "title": "SolarWinds security advisory (AV26-1068)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/solarwinds-security-advisory-av26-1068",
+     "date": "2026-10-21T13:03:16+00:00",
+     "summary": ""
+    },
     {
      "title": "Craft CMS security advisory (AV26-1067)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/craft-cms-security-advisory-av26-1067",
      "date": "2026-10-20T20:04:46+00:00",
      "summary": ""
-    },
-    {
-     "title": "Siemens security advisory (AV26-1063) – Update 1",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/siemens-security-advisory-av26-1063",
-     "date": "2026-10-20T19:57:09+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Gitea security advisory (AV26-845) - Update 1",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/gitea-security-advisory-av26-845",
-     "date": "2026-10-20T17:33:03+00:00",
-     "summary": ""
-    },
-    {
-     "title": "[Control systems] GeoVision security advisory (AV26-1066)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-geovision-security-advisory-av26-1066",
-     "date": "2026-10-20T13:26:08+00:00",
-     "summary": ""
-    },
-    {
-     "title": "[Control systems] Advantech security advisory (AV26-1065)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-advantech-security-advisory-av26-1065",
-     "date": "2026-10-20T13:10:55+00:00",
-     "summary": ""
-    },
-    {
-     "title": "IBM security advisory (AV26-1064)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/ibm-security-advisory-av26-1064",
-     "date": "2026-10-20T13:01:07+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Eptura security advisory (AV26-1062)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/eptura-security-advisory-av26-1062",
-     "date": "2026-10-19T20:30:24+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Red Hat security advisory (AV26-1061)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/red-hat-security-advisory-av26-1061",
-     "date": "2026-10-19T20:20:30+00:00",
-     "summary": ""
     }
-   ],
-   "error": "latest fetch failed"
+   ]
   },
   "cert-br": {
    "status": "ok",
