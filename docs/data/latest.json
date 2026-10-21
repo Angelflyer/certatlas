@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:47:04+00:00",
+ "updated": "2026-10-21T05:02:49+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -1722,6 +1722,42 @@
    "via": "api",
    "items": [
     {
+     "title": "CVE-2026-106931: EG Secure Solutions SiteGuard Server Edition added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product."
+    },
+    {
+     "title": "CVE-2026-96656: Plex Media Server added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655."
+    },
+    {
+     "title": "CVE-2026-96655: Plex Media Server added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652,…"
+    },
+    {
+     "title": "CVE-2026-96654: Plex Media Server added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and…"
+    },
+    {
+     "title": "CVE-2026-96652: Plex Media Server added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability…"
+    },
+    {
+     "title": "CVE-2026-110936: Siemens Software Center added to KEV",
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+     "date": "2026-10-20T00:00:00+00:00",
+     "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the…"
+    },
+    {
      "title": "CVE-2026-102764: BeyondTrust Remote Support added to KEV",
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
      "date": "2026-10-16T00:00:00+00:00",
@@ -1732,42 +1768,6 @@
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
      "date": "2026-10-16T00:00:00+00:00",
      "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands."
-    },
-    {
-     "title": "CVE-2026-21589: Atlassian Multiple Products added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
-     "date": "2026-10-15T00:00:00+00:00",
-     "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability…"
-    },
-    {
-     "title": "CVE-2026-105134: Ahsay AhsayCBS added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-     "date": "2026-10-14T00:00:00+00:00",
-     "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can…"
-    },
-    {
-     "title": "CVE-2026-76519: Cisco Secure Email Gateway added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-     "date": "2026-10-14T00:00:00+00:00",
-     "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system."
-    },
-    {
-     "title": "CVE-2026-105133: Ahsay AhsayCBS added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-     "date": "2026-10-14T00:00:00+00:00",
-     "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134."
-    },
-    {
-     "title": "CVE-2026-0322: Palo Alto Networks PAN-OS added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-     "date": "2026-10-14T00:00:00+00:00",
-     "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall."
-    },
-    {
-     "title": "CVE-2026-104935: Ivanti Connect Secure added to KEV",
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
-     "date": "2026-10-13T00:00:00+00:00",
-     "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands."
     }
    ]
   },
@@ -1942,6 +1942,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Recent AI-Assisted Cyber Attacks in Japan: Investigating Attack Infrastructure and Techniques",
+     "link": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+     "date": "2026-10-21T02:00:00+00:00",
+     "summary": "On October 8, 2026, JPCERT/CC issued an ..."
+    },
+    {
      "title": "TSUBAME Report Overflow (Apr-Jun 2026)",
      "link": "https://blogs.jpcert.or.jp/en/2026/09/tsubame_overflow_2026-04-06.html",
      "date": "2026-09-18T05:00:00+00:00",
@@ -1982,12 +1988,6 @@
      "link": "https://blogs.jpcert.or.jp/en/2026/03/csirts-around-the-world-azerbaijan.html",
      "date": "2026-03-25T06:00:00+00:00",
      "summary": "Hello, this is Shihono from the Global Coordination Division. In early March, we traveled to Baku, the capital of Azerbaijan, and had the opportunity to visit five organizations, including CSIRTs and facilities involved in cyber security workforce development. In this..."
-    },
-    {
-     "title": "Study of Binaries Created with Rust through Reverse Engineering",
-     "link": "https://blogs.jpcert.or.jp/en/2026/03/rust_research_en.html",
-     "date": "2026-03-12T05:00:00+00:00",
-     "summary": "Rust has been gaining attention in recent years as a language expected to replace C and C++, due to its memory safety and high performance. While Rust continues to be adopted as a programming language, malware developed using Rust (hereinafter..."
     }
    ]
   },
@@ -2052,6 +2052,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Security Bulletin 21 Oct 2026 [PDF, 2MB]",
+     "link": "https://isomer-user-content.by.gov.sg/36/5f185712-4afa-4776-b559-89d09e2663c0/21_Oct_2026.pdf",
+     "date": "2026-10-20T16:00:00+00:00",
+     "summary": ""
+    },
+    {
      "title": "Advantech ADAM-3600 EdgeLink – Multiple Vulnerabilities including Remote Code Execution, Authentication Bypass, and Sensitive Data Exfiltration",
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-149",
      "date": "2026-10-19T16:00:00+00:00",
@@ -2092,12 +2098,6 @@
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-143",
      "date": "2026-10-15T16:00:00+00:00",
      "summary": "Attackers are exploiting a high-severity vulnerability in Palo Alto Networks PAN-OS to execute arbitrary code with root privileges. Patch immediately."
-    },
-    {
-     "title": "October 2026 Monthly Patch",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-142",
-     "date": "2026-10-13T16:00:00+00:00",
-     "summary": "Microsoft has released security patches to address multiple vulnerabilities in their software and products."
     }
    ]
   },
@@ -2175,6 +2175,7 @@
    "status": "no-feed",
    "blocked": false,
    "tried": [
+    "https://www.twcert.org.tw/ (discovery: URLError)",
     "https://www.twcert.org.tw/feed/",
     "https://www.twcert.org.tw/rss.xml",
     "https://www.twcert.org.tw/rss",
@@ -2191,6 +2192,24 @@
    "feed": "https://www.hkcert.org/getrss/security-bulletin",
    "via": "known",
    "items": [
+    {
+     "title": "Google Chrome Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261021",
+     "date": "2026-10-21T03:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Nginx Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/nginx-multiple-vulnerabilities_20261021",
+     "date": "2026-10-21T01:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Oracle Products Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/oracle-products-multiple-vulnerabilities_20261021",
+     "date": "2026-10-21T01:00:00+00:00",
+     "summary": ""
+    },
     {
      "title": "Fortinet Products Elevation of Privilege Vulnerability",
      "link": "https://www.hkcert.org/security-bulletin/fortinet-products-elevation-of-privilege-vulnerability_20261020",
@@ -2218,24 +2237,6 @@
     {
      "title": "Cisco Secure Email Gateway Remote Code Execution Vulnerability",
      "link": "https://www.hkcert.org/security-bulletin/cisco-secure-email-gateway-remote-code-execution-vulnerability_20261015",
-     "date": "2026-10-15T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "IBM WebSphere Products Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/ibm-websphere-products-multiple-vulnerabilities_20261015",
-     "date": "2026-10-15T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Mozilla Products Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/mozilla-products-multiple-vulnerabilities_20261015",
-     "date": "2026-10-15T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Palo Alto Products Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261015",
      "date": "2026-10-15T03:00:00+00:00",
      "summary": ""
     }
