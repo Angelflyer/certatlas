@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T21:52:39+00:00",
+ "updated": "2026-10-22T05:03:31+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
-   "feed": "https://cert.pl/en/rss.xml",
+   "feed": "https://cert.pl/en/atom.xml",
    "via": "known",
    "items": [
     {
@@ -935,7 +935,7 @@
    ]
   },
   "csirt-mt": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
@@ -987,7 +987,8 @@
      "date": "2026-05-21T11:31:23+00:00",
      "summary": "The opportunity to download or share pornographic material is often the final stage of an illegal network that … Continued"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "ncsc-nl": {
    "status": "ok",
@@ -1997,6 +1998,24 @@
    "via": "known",
    "items": [
     {
+     "title": "GitLab 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad991b9b5290478048f3ee4",
+     "date": "2026-10-22T04:31:53+00:00",
+     "summary": "□ 개요 o GitLab社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\]\\[2\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o GitLab CE/EE에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-110264) \\[1\\]\\[3\\] o GitLab CE/EE에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-93577)…"
+    },
+    {
+     "title": "Fortinet 제품 보안 업데이트 권고",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad9919eb5290478048f3ee0",
+     "date": "2026-10-22T04:31:26+00:00",
+     "summary": "□ 개요 o Fortinet社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o FortiSIEM에서 발생하는 Path Traversal 취약점(CVE-2026-106173) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:|:---:| | CVE-2026-106173 |…"
+    },
+    {
+     "title": "PHP 보안취약점(PHP2Shell) 관련 기업 보안 대응 수칙",
+     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad975eeb5290478048f3dde",
+     "date": "2026-10-22T02:33:18+00:00",
+     "summary": "□ 개요 o PHP에서 로그인 없이 외부에서 서버에 원하는 명령을 실행할 수 있는 치명적 보안 취약점 (CVE-2026-109618, CVE-2026-109619, CVSS 9.2) 발견 \\[1\\]\\[2\\]\\[3\\]\\[5\\] o 보안 업데이트 배포 전 취약점 정보가 유출되었고 해외 보안업체를 중심으로 공격 시도가 보고되고 있으며, 공격에 성공하면 원격조종 파일(웹셸) 설치, 고객정보 유출, 홈페이지 변조, 내부망 침투 등 가능 o PHP를 사용하는 기업은 아래 대응 수칙에 따라 즉시 조치할…"
+    },
+    {
      "title": "PHP 제품 보안 업데이트 권고",
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad8c80eb5290478048f38cf",
      "date": "2026-10-21T14:11:26+00:00",
@@ -2025,24 +2044,6 @@
      "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad729b4b5290478048f2c1d",
      "date": "2026-10-20T08:43:32+00:00",
      "summary": "□ 개요 o Adobe社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Adobe Acrobat, Acrobat Reader, Acrobat 2024에서 발생하는 Out-of-bounds Write 취약점(CVE-2026-81983) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 |…"
-    },
-    {
-     "title": "Vercel 제품 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad72996b5290478048f2c19",
-     "date": "2026-10-20T08:43:02+00:00",
-     "summary": "□ 개요 o Vercel社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Next.js에서 발생하는 Use After Free 취약점(CVE-2026-96889) \\[1\\]\\[2\\] □ 영향을 받는 제품 및 해결 방안 | 취약점 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:|:---:| | CVE-2026-96889 | Next.js…"
-    },
-    {
-     "title": "사이버이메지네이션 제품 보안 업데이트 권고",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad6fd86b5290478048f2891",
-     "date": "2026-10-20T05:35:02+00:00",
-     "summary": "□ 개요 o 사이버이메지네이션社 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 \\[1\\] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o D-Bridge에서 발생하는 외부를 통한 내부 관리자 경로 접근 가능한 취약점 □ 영향을 받는 제품 및 해결 방안 | 제품명 | 영향받는 버전 | 해결 버전 | |:---:|:---:|:---:| | D-Bridge | 1.4 미만 | 2.5 이상 | ※ 하단의 참고 사이트를 확인하여 업데이트…"
-    },
-    {
-     "title": "美 CISA 발표 주요 Exploit 정보공유(Update. 2026-10-20)",
-     "link": "https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad63070a9a1f3151f8b79e9",
-     "date": "2026-10-19T15:00:00+00:00",
-     "summary": "□ 개요 o 美 CISA에서 현재 자주 악용되고 있는 취약점 목록 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 영향을 받는 제품 | CVE | 제조사 | 취약점 | 내용 | 조치사항 | | :---: | :---: | :---: | --- | --- | | CVE-2026-110936 | Siemens | Siemens Software Center Uncontrolled Search Path Element Vulnerability |…"
     }
    ]
   },
@@ -2192,6 +2193,36 @@
    "via": "known",
    "items": [
     {
+     "title": "Mozilla Products Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/mozilla-products-multiple-vulnerabilities_20261022",
+     "date": "2026-10-22T03:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Node.js Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/node-js-multiple-vulnerabilities_20261022",
+     "date": "2026-10-22T02:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "GitLab Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261022",
+     "date": "2026-10-22T01:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "PHP Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/php-multiple-vulnerabilities_20261022",
+     "date": "2026-10-22T01:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Splunk Products Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/splunk-products-multiple-vulnerabilities_20261022",
+     "date": "2026-10-22T01:00:00+00:00",
+     "summary": ""
+    },
+    {
      "title": "Google Chrome Multiple Vulnerabilities",
      "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261021",
      "date": "2026-10-21T03:00:00+00:00",
@@ -2207,36 +2238,6 @@
      "title": "Oracle Products Multiple Vulnerabilities",
      "link": "https://www.hkcert.org/security-bulletin/oracle-products-multiple-vulnerabilities_20261021",
      "date": "2026-10-21T01:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Fortinet Products Elevation of Privilege Vulnerability",
-     "link": "https://www.hkcert.org/security-bulletin/fortinet-products-elevation-of-privilege-vulnerability_20261020",
-     "date": "2026-10-20T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "BeyondTrust Remote Support Security Restriction Bypass Vulnerability",
-     "link": "https://www.hkcert.org/security-bulletin/beyondtrust-remote-support-security-restriction-bypass-vulnerability_20261020",
-     "date": "2026-10-20T01:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Microsoft Edge Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/microsoft-edge-multiple-vulnerabilities_20261020",
-     "date": "2026-10-20T01:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Google Chrome Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261016",
-     "date": "2026-10-16T03:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Cisco Secure Email Gateway Remote Code Execution Vulnerability",
-     "link": "https://www.hkcert.org/security-bulletin/cisco-secure-email-gateway-remote-code-execution-vulnerability_20261015",
-     "date": "2026-10-15T03:00:00+00:00",
      "summary": ""
     }
    ]
@@ -2265,6 +2266,18 @@
    "page": "https://www.ncsc.govt.nz/news/",
    "via": "page",
    "items": [
+    {
+     "title": "CVE-2026-109618 and CVE-2026-109619 affecting PHP",
+     "link": "https://www.ncsc.govt.nz/alerts/cve-2026-109618-and-cve-2026-109619-affecting-php/",
+     "date": null,
+     "summary": ""
+    },
+    {
+     "title": "22 October 2026 NCSC encourages immediate patching against PHP vulnerability The NCSC is responding to the release of critical vulnerabilities in the general scripting language, PHP.",
+     "link": "https://www.ncsc.govt.nz/news/ncsc-encourages-immediate-patching-against-php-vulnerability/",
+     "date": null,
+     "summary": ""
+    },
     {
      "title": "30 September 2026 Cyber Smart Week 2026 raises awareness of good cyber security practices The National Cyber Security Centre (NCSC) is using Cyber Smart Week (5-11 October) to remind people and…",
      "link": "https://www.ncsc.govt.nz/news/find-a-scam-before-it-finds-you-cyber-smart-week-2026-raises-awareness-of-good-cyber-security-practices/",
@@ -2298,18 +2311,6 @@
     {
      "title": "4 August 2026 Strengthening your supply chain security Managing a third party supplier is an ongoing process, and NCSC has released cyber security guidance for organisations who use third parties to…",
      "link": "https://www.ncsc.govt.nz/news/strengthening-your-supply-chain-security/",
-     "date": null,
-     "summary": ""
-    },
-    {
-     "title": "23 June 2026 Leaders of Five Eyes Cyber Security Agencies Call to Action on AI Preparedness The GCSB’s National Cyber Security Centre (NCSC) joins Five Eyes partners in issuing a call to action to…",
-     "link": "https://www.ncsc.govt.nz/news/leaders-of-five-eyes-cyber-security-agencies-call-to-action-on-ai-preparedness/",
-     "date": null,
-     "summary": ""
-    },
-    {
-     "title": "22 June 2026 Quarter One sees significant cyber incidents In Q1 the NCSC responded to three C2 category or ‘highly significant’ incidents, the first type of these incidents since the 2021/22…",
-     "link": "https://www.ncsc.govt.nz/news/quarter-one-sees-significant-cyber-incidents/",
      "date": null,
      "summary": ""
     }
