@@ -1,11 +1,17 @@
 {
- "updated": "2026-10-22T12:06:56+00:00",
+ "updated": "2026-10-22T17:21:49+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
    "feed": "https://cert.pl/en/atom.xml",
    "via": "known",
    "items": [
+    {
+     "title": "Vulnerability in MTW CleanShot X software",
+     "link": "https://cert.pl/en/posts/2026/10/CVE-2026-16477/",
+     "date": "2026-10-22T13:55:00+00:00",
+     "summary": "Deserialization of Untrusted Data vulnerability (CVE-2026-16477) has been found in MTW CleanShot X software."
+    },
     {
      "title": "Vulnerability in NordVPN software",
      "link": "https://cert.pl/en/posts/2026/10/CVE-2026-106030/",
@@ -47,12 +53,6 @@
      "link": "https://cert.pl/en/posts/2026/10/CVE-2026-91784/",
      "date": "2026-10-02T10:55:00+00:00",
      "summary": "Local Argument Injection vulnerability (CVE-2026-91784) has been found in cjbassi/gotop software."
-    },
-    {
-     "title": "Vulnerabilities in YunoHost-Apps sogo_yhn software",
-     "link": "https://cert.pl/en/posts/2026/09/CVE-2026-74864/",
-     "date": "2026-09-30T10:55:00+00:00",
-     "summary": "CERT Polska has received a report about 2 vulnerabilities (CVE-2026-74864 and CVE-2026-74865) found in YunoHost-Apps sogo_yhn software."
     }
    ]
   },
@@ -479,52 +479,52 @@
    "via": "known",
    "items": [
     {
-     "title": "Multiples vulnérabilités dans les produits Mozilla (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1346/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et un déni de service."
+     "title": "Multiples vulnérabilités dans ISC BIND (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1365/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance."
     },
     {
-     "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1359/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
+     "title": "Multiples vulnérabilités dans Node (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1367/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
     },
     {
-     "title": "Vulnérabilité dans MongoDB PHP Driver (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1347/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "Une vulnérabilité a été découverte dans MongoDB PHP Driver. Elle permet à un attaquant de provoquer un déni de service à distance."
+     "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1363/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
     },
     {
-     "title": "Multiples vulnérabilités dans les produits StormShield (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans les produits StormShield. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des données."
+     "title": "Multiples vulnérabilités dans les produits Splunk (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1366/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
     },
     {
-     "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1357/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+     "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1360/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-     "title": "Multiples vulnérabilités dans Mattermost Server (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1348/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+     "title": "Vulnérabilité dans les produits Mozilla (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1361/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
-     "title": "Multiples vulnérabilités dans Apache Tomcat (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1358/",
-     "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
+     "title": "Multiples vulnérabilités dans les produits SolarWinds (22 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1364/",
+     "date": "2026-10-22T00:00:00+00:00",
+     "summary": "De multiples vulnérabilités ont été découvertes dans les produits SolarWinds. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)."
     },
     {
-     "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
-     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1355/",
+     "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
+     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1354/",
      "date": "2026-10-21T00:00:00+00:00",
-     "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+     "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     }
    ]
   },
@@ -534,52 +534,52 @@
    "via": "known",
    "items": [
     {
-     "title": "[UPDATE] [mittel] PHP: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3585",
-     "date": "2026-10-22T11:30:52+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in PHP ausnutzen, um einen Denial of Service Angriff durchzuführen, um Informationen offenzulegen oder die Integrität zu verletzen."
+     "title": "[UPDATE] [mittel] Red Hat OpenShift Container Platform (protobufjs, fast-uri): Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2142",
+     "date": "2026-10-22T14:28:39+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in Red Hat OpenShift Container Platform ausnutzen, um beliebigen Programmcode auszuführen, um Sicherheitsmaßnahmen zu umgehen und Daten zu manipulieren."
     },
     {
-     "title": "[UPDATE] [mittel] PCRE (Perl Compatible Regular Expressions): Schwachstelle ermöglicht Codeausführung",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3622",
-     "date": "2026-10-22T11:25:52+00:00",
-     "summary": "Ein entfernter, authentisierter Angreifer kann eine Schwachstelle in PCRE (Perl Compatible Regular Expressions) ausnutzen, um möglicherweise beliebigen Code auszuführen, angrenzenden Speicher zu beschädigen oder einen Denial-of-Service-Zustand herbeizuführen."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2077",
+     "date": "2026-10-22T14:28:39+00:00",
+     "summary": "Ein entfernter Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um Sicherheitsvorkehrungen zu umgehen, einen Denial-of-Service-Zustand herbeizuführen und weitere, nicht näher spezifizierte Auswirkungen zu erzielen."
     },
     {
-     "title": "[UPDATE] [hoch] Mozilla Produkte (Thunderbird, Firefox ESR und Firefox): Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4064",
-     "date": "2026-10-22T11:15:52+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Mozilla Thunderbird, Mozilla Firefox ESR und Mozilla Firefox ausnutzen, um Sicherheitsvorkehrungen zu umgehen, um einen Denial of Service Angriff durchzuführen, um Informationen offenzulegen und um Daten zu manipulieren."
+     "title": "[UPDATE] [hoch] Linux Kernel: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2056",
+     "date": "2026-10-22T14:28:38+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen im Linux Kernel ausnutzen, um einen Denial-of-Service-Angriff auszulösen oder andere, nicht näher spezifizierte Angriffe durchzuführen."
     },
     {
-     "title": "[UPDATE] [kritisch] PHP: Mehrere Schwachstellen ermöglichen Codeausführung",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055",
-     "date": "2026-10-22T11:15:51+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in PHP ausnutzen, um Speicherinhalte offenzulegen, einen Denial-of-Service-Zustand auszulösen oder beliebigen Code auszuführen."
+     "title": "[UPDATE] [mittel] cURL: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2052",
+     "date": "2026-10-22T14:28:38+00:00",
+     "summary": "Ein Angreifer kann mehrere Schwachstellen in cURL ausnutzen, um Sicherheitsvorkehrungen zu umgehen, vertrauliche Informationen offenzulegen oder einen Denial-of-Service-Zustand oder eine Speicherbeschädigung zu verursachen."
     },
     {
-     "title": "[UPDATE] [mittel] Xerox FreeFlow Print Server: Mehrere Schwachstellen ermöglichen nicht spezifizierten Angriff",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-0489",
-     "date": "2026-10-22T06:35:51+00:00",
-     "summary": "Ein entfernter, anonymer Angreifer kann mehrere Schwachstellen in Xerox FreeFlow Print Server ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen."
+     "title": "[UPDATE] [mittel] libxml2: Schwachstelle ermöglicht Denial of Service",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2037",
+     "date": "2026-10-22T14:28:37+00:00",
+     "summary": "Ein entfernter, anonymer Angreifer kann eine Schwachstelle in libxml2 ausnutzen, um einen Denial of Service Angriff durchzuführen."
     },
     {
-     "title": "[UPDATE] [mittel] Wireshark: Mehrere Schwachstellen ermöglichen Denial of Service",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2025-2730",
-     "date": "2026-10-22T06:10:51+00:00",
-     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen in Wireshark ausnutzen, um einen Denial of Service Angriff durchzuführen."
+     "title": "[UPDATE] [mittel] libexpat: Mehrere Schwachstellen ermöglichen nicht spezifizierten Angriff",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2025",
+     "date": "2026-10-22T14:28:37+00:00",
+     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen in libexpat ausnutzen, um einen nicht näher spezifizierten Angriff durchzuführen, darunter möglicherweise die Ausführung von beliebigem Code, die Manipulation von Daten, die Umgehung von Sicherheitsmaßnahmen, die Offenlegung…"
     },
     {
-     "title": "[UPDATE] [mittel] Unbound: Mehrere Schwachstellen",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4073",
-     "date": "2026-10-22T06:05:54+00:00",
-     "summary": "Ein Angreifer kann mehrere Schwachstellen in Unbound ausnutzen, um einen Denial of Service Angriff durchzuführen, um Daten zu manipulieren und um Sicherheitsvorkehrungen zu umgehen."
+     "title": "[UPDATE] [hoch] Google Cloud Platform (GKE containerd): Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2009",
+     "date": "2026-10-22T14:28:37+00:00",
+     "summary": "Ein entfernter, authentisierter Angreifer kann mehrere Schwachstellen in Google Cloud Platform ausnutzen, um beliebigen Programmcode auszuführen, Sicherheitsmaßnahmen zu umgehen, Daten zu manipulieren, vertrauliche Informationen offenzulegen oder einen Denial-of-Service-Zustand…"
     },
     {
-     "title": "[UPDATE] [mittel] Checkmk: Schwachstelle ermöglicht Privilegieneskalation",
-     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4072",
-     "date": "2026-10-22T06:05:53+00:00",
-     "summary": "Ein lokaler Angreifer kann eine Schwachstelle in Checkmk ausnutzen, um seine Privilegien zu erhöhen."
+     "title": "[UPDATE] [mittel] expat: Mehrere Schwachstellen",
+     "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2008",
+     "date": "2026-10-22T14:28:37+00:00",
+     "summary": "Ein lokaler Angreifer kann mehrere Schwachstellen in expat ausnutzen, um einen Denial of Service Angriff durchzuführen oder potentiell Code auszuführen."
     }
    ]
   },
@@ -809,6 +809,24 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Ievainojamības “Cisco” produktos",
+     "link": "https://cert.lv/lv/2026/10/ievainojamibas-cisco-produktos",
+     "date": "2026-10-22T13:33:11+00:00",
+     "summary": "Cisco ir publicējis informāciju par vairākām kritiskām un augstas bīstamības ievainojamībām Snort 3 programmatūrā, kas ietekmē arī vairākus Cisco produktus, tostarp Cisco Secure Firewall Threat Defense, Cisco Cyber Vision un Cisco Meraki MX."
+    },
+    {
+     "title": "“BIND 9” programmatūras ievainojamības",
+     "link": "https://cert.lv/lv/2026/10/bind-9-programmaturas-ievainojamibas",
+     "date": "2026-10-22T12:23:12+00:00",
+     "summary": "Atklāta kritiska un vairākas augstas bīstamības ievainojamības BIND 9 DNS servera programmatūrā (CVE-2026-19630, CVE-2026-94300, CVE-2026-96888 un CVE-2026-97313)."
+    },
+    {
+     "title": "Ievainojamības “Fortinet” produktos",
+     "link": "https://cert.lv/lv/2026/10/ievainojamibas-fortinet-produktos",
+     "date": "2026-10-22T11:43:11+00:00",
+     "summary": "Fortinet un Cisco, veicot savu produktu proaktīvas drošības pārbaudes, atklājuši vairākas kritiskas un augstas bīstamības ievainojamības, kuru novēršanai tiek izlaisti drošības atjauninājumi."
+    },
+    {
      "title": "Kritiska ievainojamība GitLab programmatūrā",
      "link": "https://cert.lv/lv/2026/10/kritiska-ievainojamiba-gitlab-programmatura",
      "date": "2026-10-22T06:57:46+00:00",
@@ -821,40 +839,22 @@
      "summary": "Node.js izstrādātāji ir publicējuši drošības atjauninājumus, kuros novērstas vairākas ievainojamības JavaScript izpildvidē Node.js. Ievainojamības skar Node.js 22.x, 24.x un 26.x versiju atzarus."
     },
     {
+     "title": "Kritiskas ievainojamības PHP programmatūrā",
+     "link": "https://cert.lv/lv/2026/10/kritiskas-ievainojamibas-php-programmatura",
+     "date": "2026-10-21T18:21:13+00:00",
+     "summary": "​[Informācija papildināta] Šodien, 22. oktobrī, pulksten 14:00. Vēršam uzmanību, ka 2026. gada 21. oktobrī tika publicēta informācija par divām kritiskām PHP programmatūras ievainojamībām - CVE-2026-109618 un CVE-2026-109619, kas pazīstamas ar nosaukumu PHP2Shell."
+    },
+    {
      "title": "Saistībā ar globāli atklātām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
      "link": "https://cert.lv/lv/2026/10/saistiba-ar-globali-atklatam-php-ievainojamibam-latvija-ievies-preventivus-pasakumus",
      "date": "2026-10-21T15:25:57+00:00",
      "summary": "[Informācija papildināta 21.10.2026 plkst. 23:00] Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no…"
     },
     {
-     "title": "Kritiskas ievainojamības PHP programmatūrā",
-     "link": "https://cert.lv/lv/2026/10/kritiskas-ievainojamibas-php-programmatura",
-     "date": "2026-10-21T09:14:07+00:00",
-     "summary": "​[Informācija papildināta] Šodien, 21. oktobrī, pulksten 17:00 pēc Rīgas laika “PHP” drošības komanda plāno paziņot par kritiskām ievainojamībām PHP programmatūrā - CVE-2026-109618 un CVE-2026-109619 (CVSS vērtējums 9.2). Nepieciešams nekavējoties uzstādīt atjauninājumus,…"
-    },
-    {
      "title": "Krāpnieciskas SMS par jaunu WhatsApp numuru",
      "link": "https://cert.lv/lv/2026/10/krapnieciskas-sms-par-jaunu-whatsapp-numuru",
      "date": "2026-10-15T12:05:04+00:00",
      "summary": "CERT.LV brīdina par jaunu krāpniecisku īsziņu (SMS) izplatīšanas kampaņu, kurā krāpnieki uzdodas par saņēmējam pazīstamām personām un aicina turpmākai saziņai izmantot jaunu tālruņa numuru lietotnē WhatsApp, apgalvojot, ka iepriekšējais numurs vairs nedarbojas."
-    },
-    {
-     "title": "Kritiska ievainojamība Collabora Online - Built-in CODE Server",
-     "link": "https://cert.lv/lv/2026/10/kritiska-ievainojamiba-collabora-online-built-in-code-server",
-     "date": "2026-10-15T08:50:11+00:00",
-     "summary": "Atklāta kritiska komandu injekcijas (OS Command Injection) ievainojamība Nextcloud platformas lietojumprogrammā Collabora Online – Built-in CODE Server (richdocumentscode) - CVE-2026-110447 (CVSS vērtējums 9.2)."
-    },
-    {
-     "title": "Kritiska ievainojamība GitLab programmatūrā",
-     "link": "https://cert.lv/lv/2026/10/kritiska-ievainojamiba-gitlab-programmatura",
-     "date": "2026-10-13T13:22:30+00:00",
-     "summary": "GitLab ir publicējis atjauninājumus, kas novērš kritisku (CVSS novērtējums 10.0) veselā skaitļa (integer) pārpildes ievainojamību CVE-2026-97229 GitLab Community Edition (CE) un Enterprise Edition (EE) programmatūrā. Nepieciešams nekavējoties atjaunināt GitLab instances."
-    },
-    {
-     "title": "Pieejami drošības atjauninājumi vairākiem Cisco produktiem",
-     "link": "https://cert.lv/lv/2026/10/pieejami-drosibas-atjauninajumi-vairakiem-cisco-produktiem",
-     "date": "2026-10-08T12:30:34+00:00",
-     "summary": "Uzņēmums Cisco ir identificējis vairākas drošības ievainojamības savos produktos un publicējis atbilstošus drošības atjauninājumus, lai novērstu iespējamos kiberdrošības riskus."
     }
    ]
   },
@@ -934,10 +934,22 @@
    ]
   },
   "csirt-mt": {
-   "status": "stale",
+   "status": "ok",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
+    {
+     "title": "Critical vulnerabilities affecting PHP",
+     "link": "https://ncc-mita.gov.mt/news/critical-vulnerabilities-affecting-php/",
+     "date": "2026-10-22T08:50:22+00:00",
+     "summary": "NCC-MT is sharing the following public cyber-security advisory from MT-CSIRT concerning critical vulnerabilities affecting PHP. Critical PHP vulnerabilities: … Continued"
+    },
+    {
+     "title": "The second SECURE Open Call is now open",
+     "link": "https://ncc-mita.gov.mt/news/the-second-secure-open-call-is-now-open/",
+     "date": "2026-10-20T05:23:33+00:00",
+     "summary": "The MITA-NCC, in collaboration with MDIA, is supporting National Cybersecurity Coordination Centres across the EU through the SECURE … Continued"
+    },
     {
      "title": "European Cybersecurity Challenge 2026",
      "link": "https://ncc-mita.gov.mt/news/european-cybersecurity-challenge-2026/",
@@ -973,27 +985,38 @@
      "link": "https://ncc-mita.gov.mt/security-tips/world-cup-scams-before-the-goal-spot-the-scam/",
      "date": "2026-06-11T06:34:06+00:00",
      "summary": "With the World Cup just around the corner, people from different cultures and countries will come together to … Continued"
-    },
-    {
-     "title": "CYBER AWARDS 2026 – Launch of This Year’s Edition",
-     "link": "https://ncc-mita.gov.mt/news/cyber-awards-2026-information-and-nomination-details/",
-     "date": "2026-05-28T05:00:00+00:00",
-     "summary": "We are pleased to announce the launch of this year’s edition of the CYBER AWARDS 2026 . All … Continued"
-    },
-    {
-     "title": "Stop children’s exploitation! Avoid illegal material",
-     "link": "https://ncc-mita.gov.mt/security-tips/stop-childrens-exploitation-avoid-illegal-material/",
-     "date": "2026-05-21T11:31:23+00:00",
-     "summary": "The opportunity to download or share pornographic material is often the final stage of an illegal network that … Continued"
     }
-   ],
-   "error": "latest fetch failed"
+   ]
   },
   "ncsc-nl": {
    "status": "ok",
    "feed": "https://advisories.ncsc.nl/rss/advisories",
    "via": "known",
    "items": [
+    {
+     "title": "NCSC-2026-0452 [1.00] [M/H] Kwetsbaarheden verholpen in FreeBSD bhyve hypervisor",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0452",
+     "date": "2026-10-22T12:59:18+00:00",
+     "summary": "De FreeBSD community heeft meerdere kwetsbaarheden verholpen in bhyve Hypervisor De kwetsbaarheden betreffen race conditions, onjuiste validatie en synchronisatieproblemen in verschillende device modellen binnen de bhyve hypervisor. Een kwaadwillende gast-virtuele machine kan…"
+    },
+    {
+     "title": "NCSC-2026-0451 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Expressway Series",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0451",
+     "date": "2026-10-22T12:09:18+00:00",
+     "summary": "Cisco heeft meerdere kwetsbaarheden verholpen in Cisco Expressway Series. De kwetsbaarheden betreffen onder andere onvoldoende autorisatiecontroles tijdens Mobile en Remote Access provisioning, waardoor ongeauthenticeerde externe aanvallers toegang kunnen krijgen tot gevoelige…"
+    },
+    {
+     "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
+     "date": "2026-10-22T12:06:34+00:00",
+     "summary": "Cisco heeft meerdere kwetsbaarheden verholpen in Snort 3, het open source intrusion detection en prevention systeem dat in diverse Cisco-producten wordt gebruikt. De kwetsbaarheden bevinden zich in verschillende componenten van de Snort 3 Detection Engine, waaronder de SMTP…"
+    },
+    {
+     "title": "NCSC-2026-0449 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Oracle Java",
+     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0449",
+     "date": "2026-10-22T12:04:56+00:00",
+     "summary": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Java. In Oracle Java SE, JavaFX en GraalVM Enterprise Edition zijn diverse kwetsbaarheden aanwezig die door ongeauthenticeerde netwerkaanvallers kunnen worden misbruikt via blootgestelde API's of sandboxed…"
+    },
     {
      "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
@@ -1017,30 +1040,6 @@
      "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
      "date": "2026-10-21T14:44:10+00:00",
      "summary": "Oracle heeft 33 kwetsbaarheden verholpen in diverse Oracle Analytics-producten, waaronder Oracle Business Intelligence Enterprise Edition en Oracle BI Publisher. In de patchnote staan 33 kwetsbaarheden, waarvan 14 kwetsbaarheden op afstand kunnen worden misbruikt zonder dat…"
-    },
-    {
-     "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
-     "date": "2026-10-21T14:43:10+00:00",
-     "summary": "Oracle heeft 110 kwetsbaarheden verholpen in diverse Oracle Communications-producten, waaronder Oracle Communications Unified Assurance, Oracle Communications Cloud Native Core Security Edge Protection Proxy, Oracle Communications Service Catalog and Design en Oracle…"
-    },
-    {
-     "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
-     "date": "2026-10-21T14:01:37+00:00",
-     "summary": "PHP heeft twee kritieke kwetsbaarheden verholpen. De kwetsbaarheden kunnen zonder authenticatie op afstand worden misbruikt voor het uitvoeren van willekeurige code. Alle PHP-installaties die webverzoeken verwerken zijn getroffen. De kwetsbaarheid met kenmerk CVE-2026-109618…"
-    },
-    {
-     "title": "NCSC-2026-0442 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0442",
-     "date": "2026-10-21T12:33:43+00:00",
-     "summary": "Oracle heeft 194 kwetsbaarheden verholpen in Oracle E-Business Suite en gerelateerde componenten, specifiek voor versies 12.2.3 tot en met 12.2.15. Afhankelijk van de specifieke kwetsbaarheid kunnen deze door een aanvaller met netwerktoegang worden misbruikt om ongeautoriseerde…"
-    },
-    {
-     "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
-     "link": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
-     "date": "2026-10-21T09:35:18+00:00",
-     "summary": "Oracle heeft kwetsbaarheden verholpen in diverse producten, waaronder Oracle MySQL Server, MySQL Cluster, MySQL Enterprise Backup, MySQL Connectors (waaronder Connector/ODBC) en MySQL Router. De kwetsbaarheden in Oracle MySQL betreffen diverse componenten, waaronder MySQL…"
     }
    ]
   },
@@ -1306,6 +1305,12 @@
    "via": "known",
    "items": [
     {
+     "title": "Kritisk sårbarhet i GitLab CE och EE",
+     "link": "https://www.cert.se/2026/10/Kritisk-s%C3%A5rbarhet-i-GitLab-CE-och-EE.html",
+     "date": "2026-10-22T13:30:00+00:00",
+     "summary": "Gitlab har publicerat säkerhetsuppdateringar för en ny sårbarhet, CVE-2026-110264. Sårbarheten har fått en CVSS-klassning på 10.0 och kan utnyttjas av en oautentiserad användare för att köra godtycklig kod. [1][2] GitLab har rättat sårbarheterna i följande versioner av GitLab…"
+    },
+    {
      "title": "Kritiska sårbarheter i PHP",
      "link": "https://www.cert.se/2026/10/kritiska-s%C3%A5rbarheter-i-php.html",
      "date": "2026-10-21T12:00:00+00:00",
@@ -1346,12 +1351,6 @@
      "link": "https://www.cert.se/2026/10/kritisk-sarbarhet-i-fortimail.html",
      "date": "2026-10-02T11:30:00+00:00",
      "summary": "Fortinet har publicerat information om en kritisk sårbarhet i FortiMail. Sårbarheten, CVE-2026-104286, har fått en CVSS-klassning på 9.8 och påverkar FortiMail managements gränssnitt. Ett framgångsrikt utnyttjande kan innebära att en oautentiserad angripare kan skriva…"
-    },
-    {
-     "title": "Antar du vår utmaning? / Do you accept our challenge?",
-     "link": "https://www.cert.se/2026/10/antar-du-var-utmaning.html",
-     "date": "2026-10-02T10:45:00+00:00",
-     "summary": "CERT-SE presenterar vår årliga utmaning (CTF) som sker under cybersäkerhetsmånaden [1, 2]. Utmaningen vänder sig till alla med it-säkerhetsintresse oavsett kunskapsnivå."
     }
    ]
   },
@@ -1832,6 +1831,24 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Atlassian security advisory (AV26-1076)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/atlassian-security-advisory-av26-1076",
+     "date": "2026-10-22T15:54:24+00:00",
+     "summary": ""
+    },
+    {
+     "title": "Roundcube security advisory (AV26-1075)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/roundcube-security-advisory-av26-1075",
+     "date": "2026-10-22T12:36:04+00:00",
+     "summary": ""
+    },
+    {
+     "title": "GitLab security advisory (AV26-1074)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/gitlab-security-advisory-av26-1074",
+     "date": "2026-10-22T12:27:27+00:00",
+     "summary": ""
+    },
+    {
      "title": "Cisco security advisory (AV26-1073)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1073",
      "date": "2026-10-21T19:09:38+00:00",
@@ -1859,24 +1876,6 @@
      "title": "PHP security advisory (AV26-1070)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/php-security-advisory-av26-1070",
      "date": "2026-10-21T13:27:35+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Google Chrome security advisory (AV26-1069)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/google-chrome-security-advisory-av26-1069",
-     "date": "2026-10-21T13:19:21+00:00",
-     "summary": ""
-    },
-    {
-     "title": "SolarWinds security advisory (AV26-1068)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/solarwinds-security-advisory-av26-1068",
-     "date": "2026-10-21T13:03:16+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Craft CMS security advisory (AV26-1067)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/craft-cms-security-advisory-av26-1067",
-     "date": "2026-10-20T20:04:46+00:00",
      "summary": ""
     }
    ]
@@ -2122,6 +2121,12 @@
    "via": "page",
    "items": [
     {
+     "title": "关于PHP远程代码执行漏洞分析及修复建议的安全公告",
+     "link": "https://www.cert.org.cn/publish/main/9/2026/20261022162132536309183/20261022162132536309183_.html",
+     "date": null,
+     "summary": ""
+    },
+    {
      "title": "关于中国境外自治域AS 402425恶意篡改部分DNS解析数...",
      "link": "https://www.cert.org.cn/publish/main/11/2026/20261020214410947717866/20261020214410947717866_.html",
      "date": null,
@@ -2160,12 +2165,6 @@
     {
      "title": "关于家用路由器DNS被恶意篡改导致异常跳转风险的提示",
      "link": "https://www.cert.org.cn/publish/main/11/2026/20260601145618109326016/20260601145618109326016_.html",
-     "date": null,
-     "summary": ""
-    },
-    {
-     "title": "关于黑产团伙批量搭建高仿真钓鱼网站大规模传播银狐木马的风险提示",
-     "link": "https://www.cert.org.cn/publish/main/10/2026/20260522113326926111046/20260522113326926111046_.html",
      "date": null,
      "summary": ""
     }
