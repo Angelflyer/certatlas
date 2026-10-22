@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:21:49+00:00",
+ "updated": "2026-10-22T21:47:37+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -1831,6 +1831,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Splunk security advisory (AV26-1077)",
+     "link": "https://cyber.gc.ca/en/alerts-advisories/splunk-security-advisory-av26-1077",
+     "date": "2026-10-22T19:29:12+00:00",
+     "summary": ""
+    },
+    {
      "title": "Atlassian security advisory (AV26-1076)",
      "link": "https://cyber.gc.ca/en/alerts-advisories/atlassian-security-advisory-av26-1076",
      "date": "2026-10-22T15:54:24+00:00",
@@ -1870,12 +1876,6 @@
      "title": "AL26-026 - Critical vulnerabilities impacting PHP - CVE-2026-109618 and CVE-2026-109619",
      "link": "https://cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619",
      "date": "2026-10-21T17:30:09+00:00",
-     "summary": ""
-    },
-    {
-     "title": "PHP security advisory (AV26-1070)",
-     "link": "https://cyber.gc.ca/en/alerts-advisories/php-security-advisory-av26-1070",
-     "date": "2026-10-21T13:27:35+00:00",
      "summary": ""
     }
    ]
