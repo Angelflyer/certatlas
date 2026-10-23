@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:47:37+00:00",
+ "updated": "2026-10-23T05:04:56+00:00",
  "teams": {
   "cert-pl": {
    "status": "ok",
@@ -639,57 +639,57 @@
    ]
   },
   "nki-hu": {
-   "status": "ok",
-   "feed": "https://nki.gov.hu/figyelmeztetesek/riasztas/feed/",
-   "via": "known",
+   "status": "watched",
+   "page": "https://nki.gov.hu/figyelmeztetesek/cve-serulekenysegek/",
+   "via": "page",
    "items": [
     {
-     "title": "Riasztás a PHP futtatókörnyezet kritikus sérülékenységeiről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-php-futtatokornyezet-kritikus-serulekenysegeirol/",
-     "date": "2026-10-21T07:09:45+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet (NBSZ NKI) riasztást ad ki a PHP futtatókörnyezetet érintő két kritikus sérülékenységgel kapcsolatban, tekintettel azok súlyosságára, várható kihasználására, valamint az érintett technológia széles körű…"
+     "title": "CVE-2026-111497 Node.js 2026. 10. 22. Magas",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-111497/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás az Ivanti Connect Secure és a Microsoft Windows Shell sérülékenységeiről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-az-ivanti-connect-secure-es-a-microsoft-windows-shell-serulekenysegeirol/",
-     "date": "2026-10-14T10:50:06+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki az Ivanti Connect Secure terméket, valamint a Microsoft Windows Shell komponenst érintő sérülékenységek kapcsán, azok aktív kihasználása, valamint az érintett termékek széles körű használata miatt.…"
+     "title": "CVE-2026-110264 GitLab 2026. 10. 22. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-110264/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás a WordPress Core-t érintő sérülékenységről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-wordpress-core-t-erinto-serulekenysegrol/",
-     "date": "2026-10-01T10:27:15+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézete riasztást ad ki a széles körben használt WordPress tartalomkezelő rendszer (Core) aktívan kihasznált sérülékenysége miatt. A CISA 2026. szeptember 25-én vette fel a KEV-katalógusába. A hiba hitelesítés nélkül…"
+     "title": "CVE-2026-110936 Siemens 2026. 10. 21. Magas Igen",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-110936/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás a Cisco Catalyst SD-WAN Manager rendszert érintő sérülékenységről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-cisco-catalyst-sd-wan-manager-rendszert-erinto-serulekenysegrol/",
-     "date": "2026-10-01T10:24:00+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézete riasztást ad ki a Cisco Catalyst SD-WAN Manager API-jának hitelesítését érintő, aktívan kihasznált kritikus sérülékenység miatt. A hibát a Cisco közlése szerint 2026 szeptemberében már aktívan kihasználták. A…"
+     "title": "CVE-2026-109619 PHP, PHP Group 2026. 10. 21. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-109619/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás a NetScaler ADC és NetScaler Gateway termékeket érintő sérülékenységekről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-netscaler-adc-es-netscaler-gateway-termekeket-erinto-serulekenysegekrol/",
-     "date": "2026-09-28T10:59:18+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a NetScaler ADC és NetScaler Gateway termékeket érintő CVE-2026-88771 és CVE-2026-88772 azonosítójú, aktívan kihasznált kritikus sérülékenységek kapcsán. A gyártó 2026. szeptember 27-én adott ki…"
+     "title": "CVE-2026-109618 PHP, PHP Group 2026. 10. 21. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-109618/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás a Tárhely.Eu nevében küldött adathalász kampány kapcsán",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-a-tarhely-eu-neveben-kuldott-adathalasz-kampany-kapcsan/",
-     "date": "2026-09-25T06:18:10+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a Tárhely.Eu tárhelyszolgáltató nevében küldött adathalász kampány kapcsán. A beérkezett bejelentések alapján ismeretlen elkövetők a Tárhely.Eu nevével visszaélve fizetési felszólításokat küldenek…"
+     "title": "CVE-2026-93479 F5, NGINX Open Source, NGINX Plus 2026. 10. 20. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-93479/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás az F5 BIG-IP APM rendszert érintő CVE-2026-94127 sérülékenységről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-az-f5-big-ip-apm-rendszert-erinto-cve-2026-94127-serulekenysegrol/",
-     "date": "2026-09-23T08:20:50+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a BIG-IP Access Policy Manager-t (APM) érintő CVE-2026-94127 azonosítón nyomon követett, kritikus, nulladik napi sérülékenység kapcsán. A sérülékenység egy heap-alapú puffertúlcsordulás, amely…"
+     "title": "CVE-2026-97205 F5, NGINX Open Source, NGINX Plus 2026. 10. 20. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-97205/",
+     "date": null,
+     "summary": ""
     },
     {
-     "title": "Riasztás Check Point Security Management Server-t érintő sérülékenységről",
-     "link": "https://nki.gov.hu/figyelmeztetesek/riasztas/riasztas-check-point-security-management-server-t-erinto-serulekenysegrol/",
-     "date": "2026-09-23T08:16:19+00:00",
-     "summary": "A Nemzetbiztonsági Szakszolgálat Nemzeti Kiberbiztonsági Intézet riasztást ad ki a Check Point Security Management Servert érintő CVE-2026-93616 azonosítójú, aktívan kihasznált kritikus sérülékenység kapcsán. A CVSS 9,8-as, előzetes hitelesítés nélkül kihasználható…"
+     "title": "CVE-2026-15176 F5, NGINX Open Source, NGINX Plus 2026. 10. 20. Kritikus",
+     "link": "https://nki.gov.hu/figyelmeztetesek/serulekenysegek/cve-2026-15176/",
+     "date": null,
+     "summary": ""
     }
    ]
   },
@@ -934,7 +934,7 @@
    ]
   },
   "csirt-mt": {
-   "status": "ok",
+   "status": "stale",
    "feed": "https://ncc-mita.gov.mt/feed/",
    "via": "probed",
    "items": [
@@ -986,7 +986,8 @@
      "date": "2026-06-11T06:34:06+00:00",
      "summary": "With the World Cup just around the corner, people from different cultures and countries will come together to … Continued"
     }
-   ]
+   ],
+   "error": "latest fetch failed"
   },
   "ncsc-nl": {
    "status": "ok",
@@ -1776,6 +1777,12 @@
    "via": "known",
    "items": [
     {
+     "title": "VU#763488: Memory corruption vulnerabilities in PHP",
+     "link": "https://kb.cert.org/vuls/id/763488",
+     "date": "2026-10-22T22:23:51.159697+00:00",
+     "summary": "Overview Two memory-related vulnerabilities have been identified in PHP versions prior to 8.2.35, 8.3.36, 8.4.27, and 8.5.12. An unauthenticated remote attacker with network access to PHP web services can exploit these vulnerabilities via specially crafted HTTP requests to…"
+    },
+    {
      "title": "VU#645818: Xerj Console API Authentication Bypass Leads to Unauthorized Credential Minting",
      "link": "https://kb.cert.org/vuls/id/645818",
      "date": "2026-10-20T18:09:44.460556+00:00",
@@ -1816,12 +1823,6 @@
      "link": "https://kb.cert.org/vuls/id/573195",
      "date": "2026-10-13T18:27:20.433572+00:00",
      "summary": "Overview This note covers differences in how TLS libraries interpret X.509 Name Constraints. A certificate that one library accepts may be rejected by another. Some of those differences are defects; others follow from behavior that RFC 5280 does not fully specify. Description…"
-    },
-    {
-     "title": "VU#157374: XSS vulnerability in Shopware 6 enables Admin Token Theft and RCE",
-     "link": "https://kb.cert.org/vuls/id/157374",
-     "date": "2026-10-13T18:14:02.229148+00:00",
-     "summary": "Overview Shopware 6.7 contains a stored cross-site scripting (XSS) vulnerability in its media upload functionality that can lead to administrator credential compromise and remote code execution. Description Shopware is an open-source e-commerce platform used to build and manage…"
     }
    ]
   },
@@ -2051,6 +2052,12 @@
    "via": "discovered",
    "items": [
     {
+     "title": "Critical Vulnerability in Fortinet FortiSIEM",
+     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-153",
+     "date": "2026-10-21T16:00:00+00:00",
+     "summary": "Attackers can exploit a critical vulnerability in Fortinet FortiSIEM to execute arbitrary code. Patch immediately."
+    },
+    {
      "title": "Critical Vulnerability in GitLab",
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-152",
      "date": "2026-10-21T16:00:00+00:00",
@@ -2091,12 +2098,6 @@
      "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-147",
      "date": "2026-10-19T16:00:00+00:00",
      "summary": "Attackers are exploiting a high-severity vulnerability in Ivanti Connect Secure to execute arbitrary commands. Patch immediately."
-    },
-    {
-     "title": "Critical Vulnerabilities in Juniper Devices",
-     "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-146",
-     "date": "2026-10-18T16:00:00+00:00",
-     "summary": "Attackers can exploit critical vulnerabilities in Juniper devices to execute arbitrary code, cause a denial-of-service condition, or gain root-level privileges. Patch immediately."
     }
    ]
   },
@@ -2191,6 +2192,18 @@
    "via": "known",
    "items": [
     {
+     "title": "Fortinet Products Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/fortinet-products-multiple-vulnerabilities_20261023",
+     "date": "2026-10-23T01:00:00+00:00",
+     "summary": ""
+    },
+    {
+     "title": "ISC BIND Multiple Vulnerabilities",
+     "link": "https://www.hkcert.org/security-bulletin/isc-bind-multiple-vulnerabilities_20261023",
+     "date": "2026-10-23T01:00:00+00:00",
+     "summary": ""
+    },
+    {
      "title": "Mozilla Products Multiple Vulnerabilities",
      "link": "https://www.hkcert.org/security-bulletin/mozilla-products-multiple-vulnerabilities_20261022",
      "date": "2026-10-22T03:00:00+00:00",
@@ -2225,18 +2238,6 @@
      "link": "https://www.hkcert.org/security-bulletin/splunk-products-multiple-vulnerabilities_20261022",
      "date": "2026-10-22T01:00:00+00:00",
      "summary": ""
-    },
-    {
-     "title": "[Security Blog] HKCERT Warns of Critical “PHP2Shell” Vulnerabilities: Businesses Must Immediately Review and Patch PHP Systems AI Accelerates Cyber Attacks and Defence, Further Shortening the…",
-     "link": "https://www.hkcert.org/blog/hkcert-warns-of-critical-php2shell-vulnerabilities-businesses-must-immediately-review-and-patch-php-systems-ai-accelerates-cyber-attacks-and-defence-further-shortening-the-response-window-between-vulnerability-disclosure-and-exploitation",
-     "date": "2026-10-21T16:00:00+00:00",
-     "summary": ""
-    },
-    {
-     "title": "Google Chrome Multiple Vulnerabilities",
-     "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261021",
-     "date": "2026-10-21T03:00:00+00:00",
-     "summary": ""
     }
    ]
   },
@@ -2267,6 +2268,12 @@
     {
      "title": "CVE-2026-109618 and CVE-2026-109619 affecting PHP",
      "link": "https://www.ncsc.govt.nz/alerts/cve-2026-109618-and-cve-2026-109619-affecting-php/",
+     "date": null,
+     "summary": ""
+    },
+    {
+     "title": "23 October 2026 NCSC urges small businesses to check websites and online services following PHP vulnerability The NCSC is encouraging small businesses to take immediate steps to determine whether…",
+     "link": "https://www.ncsc.govt.nz/news/ncsc-urges-small-businesses-to-check-websites-and-online-services-following-php-vulnerability/",
      "date": null,
      "summary": ""
     },
@@ -2303,12 +2310,6 @@
     {
      "title": "20 August 2026 New Zealanders urged to take care as cyber security incidents become more complex New Zealanders continue to report cyber security incidents at a consistent rate, helping the NCSC…",
      "link": "https://www.ncsc.govt.nz/news/new-zealanders-urged-to-take-care-as-cyber-security-incidents-become-more-complex/",
-     "date": null,
-     "summary": ""
-    },
-    {
-     "title": "4 August 2026 Strengthening your supply chain security Managing a third party supplier is an ongoing process, and NCSC has released cyber security guidance for organisations who use third parties to…",
-     "link": "https://www.ncsc.govt.nz/news/strengthening-your-supply-chain-security/",
      "date": null,
      "summary": ""
     }
