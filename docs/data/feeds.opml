@@ -14,6 +14,7 @@
   <outline type="rss" text="FR – CERT-FR" xmlUrl="https://www.cert.ssi.gouv.fr/feed/" htmlUrl="https://www.cert.ssi.gouv.fr/"/>
   <outline type="rss" text="DE – CERT-Bund" xmlUrl="https://wid.cert-bund.de/content/public/securityAdvisory/rss" htmlUrl="https://wid.cert-bund.de/"/>
   <outline type="rss" text="GR – EL-CSIRT" xmlUrl="https://cyber.gov.gr/feed/" htmlUrl="https://cyber.gov.gr/el-csirt/"/>
+  <outline type="rss" text="HU – NKI / GovCERT-Hungary" xmlUrl="https://nki.gov.hu/figyelmeztetesek/riasztas/feed/" htmlUrl="https://nki.gov.hu/"/>
   <outline type="rss" text="IE – NCSC-IE / CSIRT-IE" xmlUrl="https://www.ncsc.gov.ie/news/alerts.rss" htmlUrl="https://www.ncsc.gov.ie/"/>
   <outline type="rss" text="IT – CSIRT Italia" xmlUrl="https://www.acn.gov.it/portale/feedrss/-/journal/rss/20119/723192" htmlUrl="https://www.acn.gov.it/portale/csirt-italia"/>
   <outline type="rss" text="LV – CERT.LV" xmlUrl="https://cert.lv/lv/feed/atom/viss" htmlUrl="https://cert.lv/"/>
